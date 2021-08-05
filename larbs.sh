@@ -217,7 +217,7 @@ https://www.archlinux.org/feeds/news/" > "/home/$name/.config/newsboat/urls"
 git update-index --assume-unchanged "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
 
 # Upgrade Nvim for CoC 
- python3 -m pip install --user --upgrade pynvim
+python3 -m pip install --user --upgrade pynvim
 
 # Most important command! Get rid of the beep!
 systembeepoff
