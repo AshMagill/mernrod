@@ -188,7 +188,7 @@ adduserandpass || error "Error adding username and/or password."
 newperms "%wheel ALL=(ALL) NOPASSWD: ALL"
 
 # Upgrade Nvim for CoC 
-sudo python3 -m pip install --upgrade pynvim
+python3 -m pip install --user --upgrade pynvim
 
 # Make pacman and yay colorful and adds eye candy on the progress bar because why not.
 grep -q "^Color" /etc/pacman.conf || sed -i "s/^#Color$/Color/" /etc/pacman.conf
