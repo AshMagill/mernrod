@@ -187,8 +187,11 @@ adduserandpass || error "Error adding username and/or password."
 # in a fakeroot environment, this is required for all builds with AUR.
 newperms "%wheel ALL=(ALL) NOPASSWD: ALL"
 
-# Upgrade Nvim for CoC 
+# Upgrade Nvim for TabNine
 pip3 install --upgrade pynvim
+
+# Install everything on Nvim before its run 
+nvim --headless +PlugInstall +CocUpdate +qall
 
 # Make pacman and yay colorful and adds eye candy on the progress bar because why not.
 grep -q "^Color" /etc/pacman.conf || sed -i "s/^#Color$/Color/" /etc/pacman.conf
