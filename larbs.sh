@@ -189,7 +189,8 @@ newperms "%wheel ALL=(ALL) NOPASSWD: ALL"
 
 
 # Install everything on Nvim before its run 
-nvim --headless +PlugInstall +qall && nvim --headless +CocUpdate +qall
+nvim --headless +PlugInstall +qall
+nvim --headless +CocUpdate +qall
 
 # Make pacman and yay colorful and adds eye candy on the progress bar because why not.
 grep -q "^Color" /etc/pacman.conf || sed -i "s/^#Color$/Color/" /etc/pacman.conf
@@ -244,8 +245,6 @@ echo "export \$(dbus-launch)" > /etc/profile.d/dbus.sh
 	Option "Tapping" "on"
 EndSection' > /etc/X11/xorg.conf.d/40-libinput.conf
 
-# Upgrade Nvim for TabNine
-pip3 install --upgrade --user pynvim
 # Fix fluidsynth/pulseaudio issue.
 grep -q "OTHER_OPTS='-a pulseaudio -m alsa_seq -r 48000'" /etc/conf.d/fluidsynth ||
 	echo "OTHER_OPTS='-a pulseaudio -m alsa_seq -r 48000'" >> /etc/conf.d/fluidsynth
