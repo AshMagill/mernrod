@@ -216,6 +216,13 @@ https://www.archlinux.org/feeds/news/" > "/home/$name/.config/newsboat/urls"
 # make git ignore deleted LICENSE & README.md files
 git update-index --assume-unchanged "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
 
+# Upgrade Nvim for CoC 
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+python3 get-pip.py
+
+python3 -m pip install --user --upgrade pynvim
+
 # Most important command! Get rid of the beep!
 systembeepoff
 
@@ -245,11 +252,6 @@ grep -q "OTHER_OPTS='-a pulseaudio -m alsa_seq -r 48000'" /etc/conf.d/fluidsynth
 
 # Start/restart PulseAudio.
 killall pulseaudio; sudo -u "$name" pulseaudio --start
-
-# Upgrade Nvim for CoC 
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python3 get-pip.py
-python3 -m pip install --user --upgrade pynvim
 
 # This line, overwriting the `newperms` command above will allow the user to run
 # serveral important commands, `shutdown`, `reboot`, updating, etc. without a password.
