@@ -217,8 +217,6 @@ https://www.archlinux.org/feeds/news/" > "/home/$name/.config/newsboat/urls"
 git update-index --assume-unchanged "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
 
 # Upgrade Nvim for CoC 
- curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python3 get-pip.py
-
  python3 -m pip install --user --upgrade pynvim
 
 # Most important command! Get rid of the beep!
