@@ -187,10 +187,6 @@ adduserandpass || error "Error adding username and/or password."
 # in a fakeroot environment, this is required for all builds with AUR.
 newperms "%wheel ALL=(ALL) NOPASSWD: ALL"
 
-
-# Install everything on Nvim before its run 
-nvim --headless +PlugInstall +qall && nvim --headless +CocUpdate +qall
-
 setbg /home/thrasher/.local/share/thiemeyer_road_to_samarkand.jpg
 
 # Make pacman and yay colorful and adds eye candy on the progress bar because why not.
