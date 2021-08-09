@@ -190,13 +190,13 @@ newperms "%wheel ALL=(ALL) NOPASSWD: ALL"
 setbg /home/thrasher/.local/share/thiemeyer_road_to_samarkand.jpg
 
 # Install vim and coc settings
-nvim -u ~/larbs-react/init.vim +Pluginstall +CocUpdate +qall
+#nvim -u ~/larbs-react/init.vim +Pluginstall +qall
 
-rm ~/larbs-react/init.vim
+#rm ~/larbs-react/init.vim
 
 nvim +PlugInstall +qall
 
-nvim +CocUpdate +qall
+#nvim +CocUpdate +qall
 
 # Make pacman and yay colorful and adds eye candy on the progress bar because why not.
 grep -q "^Color" /etc/pacman.conf || sed -i "s/^#Color$/Color/" /etc/pacman.conf
