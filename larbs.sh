@@ -187,10 +187,12 @@ adduserandpass || error "Error adding username and/or password."
 # in a fakeroot environment, this is required for all builds with AUR.
 newperms "%wheel ALL=(ALL) NOPASSWD: ALL"
 
+# Set Background
 setbg ./background_image.jpg 
 
-# Install vim and coc settings
-nvim -E -e -s -u ./init.vim +PlugInstall +qall
+# Install Vim and Coc settings
+nvim -E -e -s -u ./init.vim +PlugInstall +qall && nvim -E -e -s +PlugInstall +qall && rm ./init.vim
+
 
 # Make pacman and yay colorful and adds eye candy on the progress bar because why not.
 grep -q "^Color" /etc/pacman.conf || sed -i "s/^#Color$/Color/" /etc/pacman.conf
