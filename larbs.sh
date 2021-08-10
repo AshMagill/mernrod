@@ -187,11 +187,8 @@ adduserandpass || error "Error adding username and/or password."
 # in a fakeroot environment, this is required for all builds with AUR.
 newperms "%wheel ALL=(ALL) NOPASSWD: ALL"
 
-# Set Background
-setbg ./background_image.jpg 
-
 # Install Vim and Coc settings
-nvim -E -e -s -u ./init.vim +PlugInstall +qall && nvim -E -e -s +PlugInstall +qall 
+nvim --headless -u ./init.vim +PlugInstall +qall
 
 # Make pacman and yay colorful and adds eye candy on the progress bar because why not.
 grep -q "^Color" /etc/pacman.conf || sed -i "s/^#Color$/Color/" /etc/pacman.conf
@@ -222,6 +219,11 @@ https://www.archlinux.org/feeds/news/" > "/home/$name/.config/newsboat/urls"
 # make git ignore deleted LICENSE & README.md files
 git update-index --assume-unchanged "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
 
+# Set Background
+setbg ./background_image.jpg 
+
+# Set React based Vim Config
+sh ./vimconf.sh
 
 # Most important command! Get rid of the beep!
 systembeepoff
