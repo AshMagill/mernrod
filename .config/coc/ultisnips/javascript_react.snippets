@@ -1,0 +1,687 @@
+snippet rcc "Creates a React component class with ES6 module system"
+import React, { Component } from 'react';
+
+class ${1:${TM_FILENAME_BASE}} extends Component {
+	render() {
+		return (
+			<div>
+				$0
+			</div>
+		);
+	}
+}
+
+export default ${1:${TM_FILENAME_BASE}};
+endsnippet
+
+snippet rrc "Creates a React component class connected to redux"
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
+function mapStateToProps(state) {
+	return {
+
+	};
+}
+
+class ${1:${TM_FILENAME_BASE}} extends Component {
+	render() {
+		return (
+			<div>
+				$0
+			</div>
+		);
+	}
+}
+
+export default connect(
+	mapStateToProps,
+)(${1:${TM_FILENAME_BASE}});
+endsnippet
+
+snippet rrdc "Creates a React component class connected to redux with dispatch"
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
+function mapStateToProps(state) {
+	return {
+
+	};
+}
+
+function mapDispatchToProps(dispatch) {
+	return {
+
+	};
+}
+
+class ${1:${TM_FILENAME_BASE}} extends Component {
+	render() {
+		return (
+			<div>
+				$0
+			</div>
+		);
+	}
+}
+
+export default connect(
+	mapStateToProps,
+)(${1:${TM_FILENAME_BASE}});
+endsnippet
+
+snippet rcjc "Creates a React component class with ES6 module system"
+class ${1:${TM_FILENAME_BASE}} extends Component {
+	render() {
+		return (
+			<div>
+				$0
+			</div>
+		);
+	}
+}
+
+endsnippet
+
+snippet rccp "Creates a React component class with PropTypes and ES6 module system"
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+class ${1:${TM_FILENAME_BASE}} extends Component {
+	render() {
+		return (
+			<div>
+				$0
+			</div>
+		);
+	}
+}
+
+${1:${TM_FILENAME_BASE}}.propTypes = {
+
+};
+
+export default ${1:${TM_FILENAME_BASE}};
+endsnippet
+
+snippet rcfc "Creates a React component class with PropTypes and all lifecycle methods and ES6 module system"
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+class ${1:${TM_FILENAME_BASE}} extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			
+		}
+	}
+
+	static getDerivedStateFromProps() {
+		return null
+	}
+
+	componentDidMount() {
+		
+	}
+
+	// shouldComponentUpdate(nextProps, nextState) {}
+
+	getSnapshotBeforeUpdate(prevProps, prevState) {
+		return null
+	}
+
+	componentDidUpdate(prevProps, prevState, snapshot) {
+		
+	}
+
+	componentWillUnmount() {
+		
+	}
+
+	render() {
+		return (
+			<div>
+				
+			</div>
+		);
+	}
+}
+
+${1:${TM_FILENAME_BASE}}.propTypes = {
+	
+};
+
+export default ${1:${TM_FILENAME_BASE}};
+endsnippet
+
+snippet rwwd "Creates a React component class with constructor, empty state, proptypes and export in ES6 module system without imports. (Mostly used when React, Proptypes are provided by webpack provide plugin)"
+class ${1:${TM_FILENAME_BASE}} extends React.Component {
+	constructor(props) {
+		super(props);
+
+		this.state = {};
+
+	}
+
+	render() {
+		return (
+			<div>
+				$0
+			</div>
+		);
+	}
+}
+
+${1:${TM_FILENAME_BASE}}.propTypes = {
+
+};
+
+export default ${1:${TM_FILENAME_BASE}};
+endsnippet
+
+snippet rpc "Creates a React pure component class with PropTypes and ES6 module system"
+import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
+
+class ${1:${TM_FILENAME_BASE}} extends PureComponent {
+	render() {
+		return (
+			<div>
+				$0
+			</div>
+		);
+	}
+}
+
+${1:${TM_FILENAME_BASE}}.propTypes = {
+
+};
+
+export default ${1:${TM_FILENAME_BASE}};
+endsnippet
+
+snippet rsc "Creates a stateless React component without PropTypes and ES6 module system"
+import React from 'react';
+
+const ${1:${TM_FILENAME_BASE}} = () => {
+	return (
+		<div>
+			$0
+		</div>
+	);
+};
+
+export default ${1:${TM_FILENAME_BASE}};
+endsnippet
+
+snippet rscp "Creates a stateless React component with PropTypes and ES6 module system"
+import React from 'react';
+import PropTypes from 'prop-types';
+
+const ${1:${TM_FILENAME_BASE}} = props => {
+	return (
+		<div>
+			
+		</div>
+	);
+};
+
+${1:${TM_FILENAME_BASE}}.propTypes = {
+	$0
+};
+
+export default ${1:${TM_FILENAME_BASE}};
+endsnippet
+
+snippet rhc "Creates a stateless React component with PropTypes and ES6 module system"
+import React,{ useState } from 'react';
+import PropTypes from 'prop-types';
+
+const ${1:${TM_FILENAME_BASE}} = props => {
+	return (
+		<div>
+			
+		</div>
+	);
+};
+
+${1:${TM_FILENAME_BASE}}.propTypes = {
+	$0
+};
+
+export default ${1:${TM_FILENAME_BASE}};
+endsnippet
+
+snippet rscm "Creates a memoized stateless React component without PropTypes and ES6 module system"
+import React, { memo } from 'react';
+
+const ${1:${TM_FILENAME_BASE}} = memo(() => {
+	return (
+		<div>
+			$0
+		</div>
+	);
+});
+
+export default ${1:${TM_FILENAME_BASE}};
+endsnippet
+
+snippet rscpm "Creates a memoized stateless React component with PropTypes and ES6 module system"
+import React, { memo } from 'react';
+import PropTypes from 'prop-types';
+
+const ${1:${TM_FILENAME_BASE}} = memo((props) => {
+	return (
+		<div>
+			
+		</div>
+	);
+});
+
+${1:${TM_FILENAME_BASE}}.propTypes = {
+	$0
+};
+
+export default ${1:${TM_FILENAME_BASE}};
+endsnippet
+
+snippet fsc "Creates a stateless React component with FlowTypes and ES6 module system"
+// @flow 
+import * as React from 'react';
+type Props = {
+	$0
+};
+export const ${1:${TM_FILENAME_BASE}} = (props: Props) => {
+	return (
+		<div>
+			
+		</div>
+	);
+};
+endsnippet
+
+snippet fsf "Creates a stateless React component as a named function with FlowTypes"
+// @flow
+import * as React from 'react';
+type Props = {
+  $0
+};
+export function ${1:${TM_FILENAME_BASE}}(props: Props) {
+  return (
+    <div>
+      
+    </div>
+  );
+};
+endsnippet
+
+snippet fcc "Creates a React component class with FlowTypes"
+// @flow
+import * as React from 'react';
+type Props = {
+  $0
+};
+type State = {
+  $1
+};
+export class ${2:${TM_FILENAME_BASE}} extends React.Component<Props, State>{
+  render() {
+    return (
+      <div>
+        
+      </div>
+    );
+  };
+};
+endsnippet
+
+snippet rsf "Creates a stateless React component as a named function without PropTypes"
+import React from 'react';
+
+function ${1:${TM_FILENAME_BASE}}(props) {
+	return (
+		<div>
+			
+		</div>
+	);
+}
+
+export default ${1:${TM_FILENAME_BASE}};
+endsnippet
+
+snippet rsfp "Creates a stateless React component as a named function with PropTypes"
+import React from 'react';
+import PropTypes from 'prop-types';
+
+${1:${TM_FILENAME_BASE}}.propTypes = {
+	$0
+};
+
+function ${1:${TM_FILENAME_BASE}}(props) {
+	return (
+		<div>
+			
+		</div>
+	);
+}
+
+export default ${1:${TM_FILENAME_BASE}};
+endsnippet
+
+snippet rsi "Creates a stateless React component without PropTypes and ES6 module system but with Implicit Return and props"
+import React from 'react';
+
+const ${1:${TM_FILENAME_BASE}} = (props) => (
+			$0
+	);
+
+export default ${1:${TM_FILENAME_BASE}};
+endsnippet
+
+snippet con "Adds a default constructor for the class that contains props as arguments"
+constructor(props) {
+	super(props);
+	$0
+}
+
+endsnippet
+
+snippet conc "Adds a default constructor for the class that contains props and context as arguments"
+constructor(props, context) {
+	super(props, context);
+	$0
+}
+
+endsnippet
+
+snippet est "Creates empty state object. To be used in a constructor."
+this.state = {
+	$1
+};
+endsnippet
+
+snippet cwm "Invoked once, both on the client and server, immediately before the initial rendering occurs"
+
+componentWillMount() {
+	$0
+}
+
+endsnippet
+
+snippet cdm "Invoked once, only on the client (not on the server), immediately after the initial rendering occurs."
+componentDidMount() {
+	$0
+}
+
+endsnippet
+
+snippet cwr "Invoked when a component is receiving new props. This method is not called for the initial render. [DEPRECATION NOTE]: This method is deprecated in React 16.3"
+componentWillReceiveProps(nextProps) {
+	$0
+}
+
+endsnippet
+
+snippet scu "Invoked before rendering when new props or state are being received. "
+shouldComponentUpdate(nextProps, nextState) {
+	$0
+}
+
+endsnippet
+
+snippet cwup "Invoked immediately before rendering when new props or state are being received. [DEPRECATION NOTE]: This method is deprecated in React 16.3"
+componentWillUpdate(nextProps, nextState) {
+	$0
+}
+
+endsnippet
+
+snippet cdup "Invoked immediately after the component's updates are flushed to the DOM."
+componentDidUpdate(prevProps, prevState) {
+	$0
+}
+
+endsnippet
+
+snippet cwun "Invoked immediately before a component is unmounted from the DOM."
+componentWillUnmount() {
+	$0
+}
+
+endsnippet
+
+snippet ren "When called, it should examine this.props and this.state and return a single child element."
+render() {
+	return (
+		<div>
+			$0
+		</div>
+	);
+}
+endsnippet
+
+snippet sst "Performs a shallow merge of nextState into current state"
+this.setState($0);
+endsnippet
+
+snippet ssf "Performs a shallow merge of nextState into current state"
+this.setState((state, props) => { return { $0 }});
+
+endsnippet
+
+snippet props "Access component's props"
+this.props.$0
+endsnippet
+
+snippet state "Access component's state"
+this.state.$0
+endsnippet
+
+snippet bnd "Binds the this of a method. To be used inside a constructor"
+this.$1 = this.$1.bind(this);$0
+endsnippet
+
+snippet rpt "Creates empty propTypes declaration"
+${1:$TM_FILENAME_BASE}.propTypes = {
+	$2
+};
+endsnippet
+
+snippet rdp "Creates empty defaultProps declaration"
+${1:$TM_FILENAME_BASE}.defaultProps = {
+	$2
+};
+endsnippet
+
+snippet pta "Array prop type"
+PropTypes.array,
+endsnippet
+
+snippet ptar "Array prop type required"
+PropTypes.array.isRequired,
+endsnippet
+
+snippet ptb "Bool prop type"
+PropTypes.bool,
+endsnippet
+
+snippet ptbr "Bool prop type required"
+PropTypes.bool.isRequired,
+endsnippet
+
+snippet ptf "Func prop type"
+PropTypes.func,
+endsnippet
+
+snippet ptfr "Func prop type required"
+PropTypes.func.isRequired,
+endsnippet
+
+snippet ptn "Number prop type"
+PropTypes.number,
+endsnippet
+
+snippet ptnr "Number prop type required"
+PropTypes.number.isRequired,
+endsnippet
+
+snippet pto "Object prop type"
+PropTypes.object,
+endsnippet
+
+snippet ptor "Object prop type required"
+PropTypes.object.isRequired,
+endsnippet
+
+snippet pts "String prop type"
+PropTypes.string,
+endsnippet
+
+snippet ptsr "String prop type required"
+PropTypes.string.isRequired,
+endsnippet
+
+snippet ptsm "Symbol prop type"
+PropTypes.symbol,
+endsnippet
+
+snippet ptsmr "Symbol prop type required"
+PropTypes.symbol.isRequired,
+endsnippet
+
+snippet ptan "Any prop type"
+PropTypes.any,
+endsnippet
+
+snippet ptanr "Any prop type required"
+PropTypes.any.isRequired,
+endsnippet
+
+snippet ptnd "Anything that can be rendered: numbers, strings, elements or an array"
+PropTypes.node,
+endsnippet
+
+snippet ptndr "Anything that can be rendered: numbers, strings, elements or an array required"
+PropTypes.node.isRequired,
+endsnippet
+
+snippet ptel "React element prop type"
+PropTypes.element,
+endsnippet
+
+snippet ptelr "React element prop type required"
+PropTypes.element.isRequired,
+endsnippet
+
+snippet pti "Is an instance of a class prop type"
+PropTypes.instanceOf($0),
+endsnippet
+
+snippet ptir "Is an instance of a class prop type required"
+PropTypes.instanceOf($0).isRequired,
+endsnippet
+
+snippet pte "Prop type limited to specific values by treating it as an enum"
+PropTypes.oneOf(['$0']),
+endsnippet
+
+snippet pter "Prop type limited to specific values by treating it as an enum required"
+PropTypes.oneOf(['$0']).isRequired,
+endsnippet
+
+snippet ptet "An object that could be one of many types"
+PropTypes.oneOfType([
+	$0
+]),
+endsnippet
+
+snippet ptetr "An object that could be one of many types required"
+PropTypes.oneOfType([
+	$0
+]).isRequired,
+endsnippet
+
+snippet ptao "An array of a certain type"
+PropTypes.arrayOf($0),
+endsnippet
+
+snippet ptaor "An array of a certain type required"
+PropTypes.arrayOf($0).isRequired,
+endsnippet
+
+snippet ptoo "An object with property values of a certain type"
+PropTypes.objectOf($0),
+endsnippet
+
+snippet ptoor "An object with property values of a certain type required"
+PropTypes.objectOf($0).isRequired,
+endsnippet
+
+snippet ptoos "An object whose keys are known ahead of time"
+PropTypes.objectOf(PropTypes.shape($0)),
+endsnippet
+
+snippet ptoosr "An object whose keys are known ahead of time required"
+PropTypes.objectOf(PropTypes.shape($0)).isRequired,
+endsnippet
+
+snippet ptsh "An object taking on a particular shape"
+PropTypes.shape({
+	$0
+}),
+endsnippet
+
+snippet ptshr "An object taking on a particular shape required"
+PropTypes.shape({
+	$0
+}).isRequired,
+endsnippet
+
+snippet gsbu "Invoked right before the most recently rendered output is committed to e.g. the DOM. It enables your component to capture current values"
+getSnapshotBeforeUpdate(prevProps, prevState) {
+	$0
+}
+
+endsnippet
+
+snippet gdsfp "Invoked after a component is instantiated as well as when it receives new props."
+static getDerivedStateFromProps(nextProps, prevState) {
+	$0
+}
+
+endsnippet
+
+snippet cdc "Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them."
+componentDidCatch(error, info) {
+	$0
+}
+
+endsnippet
+
+snippet disp "Adds the redux mapDispatchToProps function"
+function mapDispatchToProps(dispatch) {
+	return {
+	}
+
+}
+endsnippet
+
+snippet usf "Adds use effect"
+useEffect(() => {
+$0
+})
+endsnippet
+
+snippet usfu "Adds use effect"
+useEffect(() => {
+$0 return () => {
+$0
+	}
+})
+endsnippet
+
+snippet usfd "Adds use effect"
+useEffect(() => {
+$0
+},[])
+endsnippet

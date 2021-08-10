@@ -15,8 +15,8 @@ while getopts ":a:r:b:p:h" o; do case "${o}" in
 	*) printf "Invalid option: -%s\\n" "$OPTARG" && exit 1 ;;
 esac done
 
-[ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/ashmagill/voidrice.git"
-[ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/AshMagill/LARBS/master/progs.csv"
+[ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/ashmagill/larbs-react/master/voidrice.git"
+[ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/AshMagill/larbs-react/master/progs.csv"
 
 [ -z "$aurhelper" ] && aurhelper="yay"
 [ -z "$repobranch" ] && repobranch="master"
@@ -187,8 +187,6 @@ adduserandpass || error "Error adding username and/or password."
 # in a fakeroot environment, this is required for all builds with AUR.
 newperms "%wheel ALL=(ALL) NOPASSWD: ALL"
 
-# Install Vim and Coc settings
-nvim --headless -u ./init.vim +PlugInstall +qall
 
 # Make pacman and yay colorful and adds eye candy on the progress bar because why not.
 grep -q "^Color" /etc/pacman.conf || sed -i "s/^#Color$/Color/" /etc/pacman.conf
@@ -219,12 +217,6 @@ https://www.archlinux.org/feeds/news/" > "/home/$name/.config/newsboat/urls"
 # make git ignore deleted LICENSE & README.md files
 git update-index --assume-unchanged "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
 
-# Set Background
-setbg ./background_image.jpg 
-
-# Set React based Vim Config
-sh ./vimconf.sh
-
 # Most important command! Get rid of the beep!
 systembeepoff
 
@@ -254,6 +246,11 @@ grep -q "OTHER_OPTS='-a pulseaudio -m alsa_seq -r 48000'" /etc/conf.d/fluidsynth
 
 # Start/restart PulseAudio.
 killall pulseaudio; sudo -u "$name" pulseaudio --start
+
+# Install Vim and Coc settings
+npm i -g coc.nvim
+
+sh ./vimstall.sh && nvim --headless +CocUpdate +qall
 
 # This line, overwriting the `newperms` command above will allow the user to run
 # serveral important commands, `shutdown`, `reboot`, updating, etc. without a password.
