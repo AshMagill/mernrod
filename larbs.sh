@@ -251,7 +251,10 @@ killall pulseaudio; sudo -u "$name" pulseaudio --start
 # Install Vim and Coc settings
 #npm i -g coc.nvim
 
-#sh ./vimstall.sh && nvim --headless +CocUpdate +qall
+
+sh ./vimstall.sh
+
+#sh ./vimstall.sh & nvim --headless +CocUpdate +qall
 
 # This line, overwriting the `newperms` command above will allow the user to run
 # serveral important commands, `shutdown`, `reboot`, updating, etc. without a password.
