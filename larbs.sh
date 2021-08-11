@@ -248,13 +248,8 @@ grep -q "OTHER_OPTS='-a pulseaudio -m alsa_seq -r 48000'" /etc/conf.d/fluidsynth
 # Start/restart PulseAudio.
 killall pulseaudio; sudo -u "$name" pulseaudio --start
 
-# Install Vim and Coc settings
-#npm i -g coc.nvim
-
-
+# install vim settings
 sh ./vimstall.sh
-
-#sh ./vimstall.sh & nvim --headless +CocUpdate +qall
 
 # This line, overwriting the `newperms` command above will allow the user to run
 # serveral important commands, `shutdown`, `reboot`, updating, etc. without a password.
