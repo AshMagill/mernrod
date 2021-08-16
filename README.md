@@ -109,7 +109,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Installation
 
-  https://www.youtube.com/watch?v=3PT76wsotks
+  https://www.youtube.com/watch?v=3PT76wsotks.mp4
 
 1. Clone the repo
    ```sh
