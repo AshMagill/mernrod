@@ -119,7 +119,13 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 * A minimal Arch install
+  ```sh
   https://sourceforge.net/projects/arch
+  ```
+* Git
+  ```sh
+  sudo pacman -S git
+  ```
 
 ### Installation
 
