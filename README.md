@@ -125,11 +125,8 @@ To get a local copy up and running follow these simple steps.
 
   This link is to a full install tutorial including a minimal Archlabs install
 
-https://www.youtube.com/watch?v=3PT76wsotks.mp4
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3PT76wsotks&t/0.jpg)](https://www.youtube.com/watch?v=3PT76wsotks&t)
 
-https://github.com/AshMagill/vids/master/larbs-react-demo-install.mp4
-
-https://github.com/AshMagill/vids/blob/main/larbs-react-demo-install.mp4
 
 1. Clone the repo
    ```sh
