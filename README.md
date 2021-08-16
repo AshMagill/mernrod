@@ -74,9 +74,7 @@
     <li>
       <a href="#usage">Usage</a>
       <ul>
-       <li><a href="#added-programs-usage">Programs</a></li>
-       <li><a href="#added-vim-plugins-usage">Vim Plugins</a></li>
-       <li><a href="added-vim-snippets-usage">Vim Snippets</a></li>
+       <li><a href="#added-programs-video">Demo Video</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
