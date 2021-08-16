@@ -61,7 +61,8 @@
       <ul>
         <li><a href="#built-with">Built With</a></li>
         <li><a href="#added-programs">Programs</a></li>
-        <li><a href="#added-vim=plugins">Vim Plugins</a></li>
+        <li><a href="#added-vim-plugins">Vim Plugins</a></li>
+        <li><a href="#added-clients">Clients</a></li>
       </ul>
     </li>
     <li>
@@ -105,11 +106,16 @@ I have added some programs for web development, and some Vim plugins as well as 
 * [Node js](docker.com)
 * [Npm](docker.com)
 
+### Clients
+* [REST http - Httpie]()
+* [MongoDB - Mongosh](http://)
+* [Postgres - Pgcli]()
+
 ### Added Vim Plugins
 * [TabNine](adf.com)
-* [coc-emmet](emmet.com)
-* [coc-prettier](adf.com)
-* [coc-snippets](ctrlp.com)
+* [COC-Emmet](emmet.com)
+* [COC-Prettier](adf.com)
+* [COC-Snippets](ctrlp.com)
 
 <!-- GETTING STARTED -->
 ## Getting Started
