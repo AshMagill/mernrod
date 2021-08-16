@@ -98,6 +98,11 @@ I have added some programs for web development, and some Vim plugins as well as 
 <!-- GETTING STARTED -->
 ## Getting Started
 
+This link is to a full install tutorial including a minimal Archlabs install
+
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3PT76wsotks/0.jpg)](https://www.youtube.com/watch?v=3PT76wsotks)
+
+
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
@@ -112,10 +117,6 @@ To get a local copy up and running follow these simple steps.
   ```
 
 ### Installation
-
-  This link is to a full install tutorial including a minimal Archlabs install
-
-  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3PT76wsotks/0.jpg)](https://www.youtube.com/watch?v=3PT76wsotks)
 
 
 1. Clone the repo
