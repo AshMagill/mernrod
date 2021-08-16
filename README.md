@@ -40,7 +40,6 @@
   <p align="center">
   A Script for Creating the perfect, lightweight Arch install for React Web Developers, its designed to be installed on a fresh, minimal Arch system (for those new to Arch I recommend using Archlabs as a base install). 
     <br />
-    <!--<a href="https://raw.githubusercontent.com/AshMagill/Readme/main/images/Pern%20C4%20Diagram.png?token=AQZ3OBXAICRLYNCWHRXRGITAYA4OM"><strong>C4 Diagram »</strong></a>-->
     <!--<br />-->
     <br />
     <!--<a href="https://github.com/AshMagill/pern-art-gallery">View Demo</a>-->
@@ -76,7 +75,7 @@
       <a href="#usage">Usage</a>
       <ul>
        <li><a href="#added-programs-usage">Programs</a></li>
-       <li><a href="#added-vim-plugins-usage">Vim Plugins></a></li>
+       <li><a href="#added-vim-plugins-usage">Vim Plugins</a></li>
        <li><a href="added-vim-snippets-usage">Vim Snippets</a></li>
       </ul>
     </li>
@@ -91,12 +90,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project is a fork of the original larbs <a href="https://github.com/LukeSmithxyz/LARBS">larbs</a> script.
+This project is a fork of the original <a href="https://github.com/LukeSmithxyz/LARBS">LARBS</a> script.
 
-I have added some programs
-
-<a href="https://raw.githubusercontent.com/AshMagill/pern-art-gallery/main/c4.png"><p>C4 diagram link</p></a> 
-
+I have added some programs for web development, and some Vim plugins as well as some snippet libaries.
 
 ### Built With
 * [dwm (Window Manager)](https://www.postgresql.org/)
@@ -113,6 +109,14 @@ I have added some programs
 
 ### Added Vim Plugins
 * [TabNine](adf.com)
+* [Ctrl P](ctrlp.com)
+* [Nerdtree](lskdfj) 
+* [coc-emmet](emmet.com)
+* *[coc-snippets](sdd.com)
+* [coc-prettier](hi.com)
+* [easymotion](dkdfj.com)
+* [gitgutter](dlkfj.com)
+* Much More
 
 <!-- GETTING STARTED -->
 ## Getting Started
