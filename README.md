@@ -133,7 +133,7 @@ To get a local copy up and running follow these simple steps.
    ```
 2. CD into folder, and run the script 
    ```sh
-  sh larbs.sh 
+   sh larbs.sh 
    ```
 3. Follow the prompts 
 
