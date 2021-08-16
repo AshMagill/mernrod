@@ -129,6 +129,8 @@ https://www.youtube.com/watch?v=3PT76wsotks.mp4
 
 https://github.com/AshMagill/vids/master/larbs-react-demo-install.mp4
 
+https://github.com/AshMagill/vids/blob/main/larbs-react-demo-install.mp4
+
 1. Clone the repo
    ```sh
    git clone git@github.com:AshMagill/larbs-react.git
