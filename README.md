@@ -108,7 +108,7 @@ To get a local copy up and running follow these simple steps.
   https://sourceforge.net/projects/arch
 
 ### Installation
-  the link below is a full install tutorial including Archlabs
+  This link is to a full install tutorial including a minimal Archlabs install
   https://www.youtube.com/watch?v=3PT76wsotks.mp4
 
 1. Clone the repo
