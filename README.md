@@ -38,7 +38,7 @@
   <h3 align="center">Larbs React Bootstrap Script</h3> 
 
   <p align="center">
-  A script for Creating the perfect, lightweight Arch install for React Web Developers, its designed to be installed on a fresh, minimal Arch system (for those new to Arch I recommend using Archlabs as a base install). 
+  A Script for Creating the perfect, lightweight Arch install for React Web Developers, its designed to be installed on a fresh, minimal Arch system (for those new to Arch I recommend using Archlabs as a base install). 
     <br />
     <!--<a href="https://raw.githubusercontent.com/AshMagill/Readme/main/images/Pern%20C4%20Diagram.png?token=AQZ3OBXAICRLYNCWHRXRGITAYA4OM"><strong>C4 Diagram »</strong></a>-->
     <!--<br />-->
@@ -91,12 +91,11 @@ Currenty I have to manually add images to his repo whenever he creates new artwo
 
 
 ### Built With
-* [Postgres](https://www.postgresql.org/)
-* [Express](https://expressjs.com/)
-* [React](https://reactjs.org/)
-* [NodeJS](https://nodejs.org/en/)
-* [Bootstrap](https://getbootstrap.com/)
-* [Docker](https://hub.docker.com/_/postgres)
+* [DWM (Window Manager)](https://www.postgresql.org/)
+* [ZSH (Shell)](https://expressjs.com/)
+* [ST (Terminal Emulator)](https://reactjs.org/)
+* [LF (File Manager)](https://nodejs.org/en/)
+* [Vim (Text Editor)](https://getbootstrap.com/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -105,21 +104,12 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-* npm 
-  https://www.npmjs.com/get-npm
-
-* Docker (to run postgres)
-  https://docs.docker.com/engine/install/
-
-* A database manager (I use Beekeeper)
-  https://docs.beekeeperstudio.io/installation
+* A minimal Arch install
+  https://sourceforge.net/projects/arch
 
 ### Installation
 
-**I'm working on getting docker-compose set up at the moment, but this will work for now** 
-<br>
-
-(Also its never a good idea to share your postgres credentials on github if your repo is being deployed)
+  https://www.youtube.com/watch?v=3PT76wsotks
 
 1. Clone the repo
    ```sh
