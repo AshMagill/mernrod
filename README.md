@@ -61,8 +61,8 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
-        <li><a href="#added-programs">Added Programs</a></li>
-        <li><a href="#added-vim=plugins">Added Vim Plugins</a></li>
+        <li><a href="#added-programs">Programs</a></li>
+        <li><a href="#added-vim=plugins">Vim Plugins</a></li>
       </ul>
     </li>
     <li>
@@ -70,6 +70,14 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#usage">Usage</a>
+      <ul>
+       <li><a href="#added-programs-usage">Programs</a></li>
+       <li><a href="#added-vim-plugins-usage">Vim Plugins></a></li>
+       <li><a href="added-vim-snippets-usage">Vim Snippets</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
