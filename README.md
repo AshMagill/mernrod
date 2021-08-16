@@ -131,7 +131,7 @@ To get a local copy up and running follow these simple steps.
 
   This link is to a full install tutorial including a minimal Archlabs install
 
-  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3PT76wsotks&t=1s/0.jpg)](https://www.youtube.com/watch?v=3PT76wsotks&t)
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3PT76wsotks/0.jpg)](https://www.youtube.com/watch?v=3PT76wsotks)
 
 
 1. Clone the repo
