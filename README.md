@@ -112,11 +112,11 @@ I have added some programs for web development, and some Vim plugins as well as 
 * [Ctrl P](ctrlp.com)
 * [Nerdtree](lskdfj) 
 * [coc-emmet](emmet.com)
-* *[coc-snippets](sdd.com)
-* [coc-prettier](hi.com)
-* [easymotion](dkdfj.com)
-* [gitgutter](dlkfj.com)
-* Much More
+* [coc-prettier](adf.com)
+* [coc-snippets](ctrlp.com)
+* [easymotion](lskdfj) 
+* [gitgutter](emmet.com)
+Much More
 
 <!-- GETTING STARTED -->
 ## Getting Started
