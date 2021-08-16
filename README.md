@@ -165,9 +165,9 @@ Project Link: [https://github.com/AshMagill/larbs-react](https://github.com/AshM
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
-* [Luke Smith](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Archlabs Linux](https://shields.io)
-* [Ben Awad](https://choosealicense.com)
+* [Luke Smith (LARBS) - Shell Script](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Archlabs Linux - OS](https://shields.io)
+* [Ben Awad - Vim Dotfiles](https://choosealicense.com)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
