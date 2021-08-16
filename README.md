@@ -1,26 +1,4 @@
 
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** AshMagill, pern-art-gallery, twitter_handle, ashmagillnewzealand@gmail.com, pern-art-gallery, A React website that displays images posted by a CMS, the routes in the server are secured with basic authentication. Uses a postgres database.
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 <span align="center">
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -42,11 +20,11 @@
     <br />
     <!--<br />-->
     <br />
-    <!--<a href="https://github.com/AshMagill/pern-art-gallery">View Demo</a>-->
+    <!--<a href="https://github.com/AshMagill/larbs-react">View Demo</a>-->
     <!--·-->
-    <a href="https://github.com/AshMagill/pern-art-gallery/issues">Report Bug</a>
+    <a href="https://github.com/AshMagill/larbs-react/issues">Report Bug</a>
     ·
-    <a href="https://github.com/AshMagill/pern-art-gallery/issues">Request Feature</a>
+    <a href="https://github.com/AshMagill/larbs-react/issues">Request Feature</a>
   </p>
 </p>
 
@@ -150,6 +128,15 @@ To get a local copy up and running follow these simple steps.
    ```
 3. Follow the prompts and restart your computer when the install    is complete.
 
+<!-- USAGE -->
+## Usage
+
+### Demo Video 
+
+  This link is to a demo/tutorial including a guide to the snippets libary
+
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/vkEyX65Ssgo/0.jpg)](https://www.youtube.com/watch?v=vkEyX65Ssgo)
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -171,17 +158,17 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Ash Magill - ashmagillnewzealand@gmail.com
 
-Project Link: [https://github.com/AshMagill/pern-art-gallery](https://github.com/AshMagill/pern-art-gallery)
+Project Link: [https://github.com/AshMagill/larbs-react](https://github.com/AshMagill/larbs-react)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/AshMagill/pern-art-gallery.svg?style=for-the-badge
-[contributors-url]: https://github.com/AshMagill/pern-art-gallery/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/AshMagill/pern-art-gallery.svg?style=for-the-badge
-[forks-url]: https://github.com/AshMagill/pern-art-gallery/network/members
-[stars-shield]: https://img.shields.io/github/stars/AshMagill/pern-art-gallery.svg?style=for-the-badge
-[stars-url]: https://github.com/AshMagill/pern-art-gallery/stargazers
-[issues-shield]: https://img.shields.io/github/issues/AshMagill/pern-art-gallery.svg?style=for-the-badge
-[issues-url]: https://github.com/AshMagill/pern-art-gallery/issues
-[license-shield]: https://img.shields.io/github/license/AshMagill/pern-art-gallery.svg?style=for-the-badge
-[license-url]: https://github.com/AshMagill/pern-art-gallery/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/AshMagill/larbs-react.svg?style=for-the-badge
+[contributors-url]: https://github.com/AshMagill/larbs-react/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/AshMagill/larbs-react.svg?style=for-the-badge
+[forks-url]: https://github.com/AshMagill/larbs-react/network/members
+[stars-shield]: https://img.shields.io/github/stars/AshMagill/larbs-react.svg?style=for-the-badge
+[stars-url]: https://github.com/AshMagill/larbs-react/stargazers
+[issues-shield]: https://img.shields.io/github/issues/AshMagill/larbs-react.svg?style=for-the-badge
+[issues-url]: https://github.com/AshMagill/larbs-react/issues
+[license-shield]: https://img.shields.io/github/license/AshMagill/larbs-react.svg?style=for-the-badge
+[license-url]: https://github.com/AshMagill/larbs-react/blob/master/LICENSE.txt
