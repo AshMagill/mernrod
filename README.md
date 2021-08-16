@@ -72,11 +72,11 @@ This project is a fork of the original <a href="https://github.com/LukeSmithxyz/
 I have added some programs for web development, and some Vim plugins as well as some snippet libaries.
 
 ### Built With
-* [dwm (Window Manager)](https://www.postgresql.org/)
-* [Zsh (Shell)](https://expressjs.com/)
-* [st (Terminal Emulator)](https://reactjs.org/)
-* [lf (File Manager)](https://nodejs.org/en/)
-* [Vim (Text Editor)](https://getbootstrap.com/)
+* [Window Manager - dwm](https://www.postgresql.org/)
+* [Shell - Zsh](https://expressjs.com/)
+* [Terminal Emulator - st](https://reactjs.org/)
+* [File Manager - lf](https://nodejs.org/en/)
+* [Text Editor - Vim](https://getbootstrap.com/)
 
 ### Added Programs
 * [Docker](docker.com)
