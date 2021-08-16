@@ -61,6 +61,8 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#added-programs">Added Programs</a></li>
+        <li><a href="#added-vim=plugins">Added Vim Plugins</a></li>
       </ul>
     </li>
     <li>
@@ -81,21 +83,28 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-A while back I made my brother a simple one pager to showcase his artwork, shown here:
+This project is a fork of the original larbs <a href="https://github.com/LukeSmithxyz/LARBS">larbs</a> script.
 
-<a href="https://tylarwaterman.co.nz">tylarwaterman.co.nz</a>
-
-Currenty I have to manually add images to his repo whenever he creates new artwork. Im working on this PERN stack version of it so he can upload his images via CMS whenever he wants. Here is a link to a C4 diagram for a technical overview:
+I have added some programs
 
 <a href="https://raw.githubusercontent.com/AshMagill/pern-art-gallery/main/c4.png"><p>C4 diagram link</p></a> 
 
 
 ### Built With
-* [DWM (Window Manager)](https://www.postgresql.org/)
-* [ZSH (Shell)](https://expressjs.com/)
-* [ST (Terminal Emulator)](https://reactjs.org/)
-* [LF (File Manager)](https://nodejs.org/en/)
+* [dwm (Window Manager)](https://www.postgresql.org/)
+* [Zsh (Shell)](https://expressjs.com/)
+* [st (Terminal Emulator)](https://reactjs.org/)
+* [lf (File Manager)](https://nodejs.org/en/)
 * [Vim (Text Editor)](https://getbootstrap.com/)
+
+### Added Programs
+* [Docker](docker.com)
+* [Docker-Compose](docker.com)
+* [Node js](docker.com)
+* [Npm](docker.com)
+
+### Added Vim Plugins
+* [TabNine](adf.com)
 
 <!-- GETTING STARTED -->
 ## Getting Started
