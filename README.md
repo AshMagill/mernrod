@@ -109,14 +109,9 @@ I have added some programs for web development, and some Vim plugins as well as 
 
 ### Added Vim Plugins
 * [TabNine](adf.com)
-* [Ctrl P](ctrlp.com)
-* [Nerdtree](lskdfj) 
 * [coc-emmet](emmet.com)
 * [coc-prettier](adf.com)
 * [coc-snippets](ctrlp.com)
-* [easymotion](lskdfj) 
-* [gitgutter](emmet.com)
-Much More
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -134,70 +129,14 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone git@github.com:AshMagill/pern-art-gallery.git
+   git clone git@github.com:AshMagill/larbs-react.git
    ```
-2. Individually CD into server, cms, website, and install npm packages 
+2. CD into folder, and run the script 
    ```sh
-   npm install
+  sh larbs.sh 
    ```
-3. Spin up postgres with docker using your terminal
-   ```sh
-   docker run -d --name  cms-server -p 5432:5432 -e POSTGRES_PASSWORD=password -v cms-server:/var/lib/postgresql/data -d postgres
-   ```
-3. In your database manager, connect to the database with these credentials
-   ```
-   Connection Type: Postgres
-   Host: Localhost
-   Port: 5432
-   User: postgres
-   Password: password
-   Default Database: postgres
-   ```
-7. In your database manager, install uuid-ossp extension
-   ```
-   create extension if not exists "uuid-ossp";
-   ```
-6. In your database manager, create the user table and the article table
-   ```sh
-   CREATE TABLE users (
-   user_id uuid PRIMARY KEY DEFAULT uuid_generate_v4(),
-   user_name VARCHAR(255) NOT NULL,
-   user_email VARCHAR(255) NOT NULL,
-   user_password VARCHAR(255) NOT NULL
-   )
-   ```
-   ```sh
-   CREATE table images(
-   id SERIAL NOT NULL PRIMARY KEY,
-   title VARCHAR(255),
-   description VARCHAR(255),
-   filename TEXT UNIQUE,
-   filepath TEXT,
-   mimetype TEXT,
-   size BIGINT
-   )
-   ```
-8. In your database manager, insert a user
-   ```
-   INSERT INTO users (user_name, user_email, user_password)
-   VALUES('user','user@email.com','$argon2i$v=19$m=4096,t=3,p=1$DDy+ddirjxRcDR46CUcVyg$axkNtlqYQSmfUiaUDGQbEK6Mn6AsqOGEKeL8TBpQ23U')
-   ```
-2. Individually CD into server, cms, website, and start them
-   <br>
-   (you are running two clients, so when npm asks to run the second one in another port, say yes)
-   ```sh
-   npm start
-   ```
-3. Start up your browser and look up the localhosts the two clients are on
-   ```
-   localhost:3000
-   localhost:3001
-   ```
-4. In the cms, log in with the user email and password we made earlier
-   ```
-   email: email@email.com
-   password: password
-   ```
+3. Follow the prompts 
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
