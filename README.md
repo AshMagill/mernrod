@@ -87,8 +87,7 @@ I have added some programs for web development, and some Vim plugins as well as 
 
 ### Clients
 * [REST http - Httpie]()
-* [MongoDB - Mongosh](http://)
-* [Postgres - Pgcli]()
+* [MONGO & PG - vim-dadbod]()
 
 ### Added Vim Plugins
 * [TabNine](adf.com)
