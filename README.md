@@ -88,9 +88,10 @@ I have added some programs for web development, and some Vim plugins as well as 
 ### Vim Clients 
 * [REST http - vim-rest-console](https://github.com/diepm/vim-rest-console)
 * [MONGO & PG - vim-dadbod](https://github.com/tpope/vim-dadbod)
-<p align="center">
+<br>
 <b>Note:</b> To keep the project lightweight, I have not included GUI programs for rest and server clients, however I only use vim-rest-console and vim-dadbod for small or repeatedly used queries, for gui queries, I use the following;
-</p>
+<br>
+
 ### Recommended GUI Clients (Not installed by default) 
 * [REST http - Insomnia](https://insomnia.rest/)
 * [MONGODB - Robo3T](https://robomongo.org/)
