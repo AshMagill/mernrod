@@ -73,27 +73,32 @@ This project is a fork of the original <a href="https://github.com/LukeSmithxyz/
 I have added some programs for web development, and some Vim plugins as well as some snippet libaries.
 
 ### Built With
-* [Window Manager - dwm](https://www.postgresql.org/)
-* [Shell - Zsh](https://expressjs.com/)
-* [Terminal Emulator - st](https://reactjs.org/)
-* [File Manager - lf](https://nodejs.org/en/)
-* [Text Editor - Vim](https://getbootstrap.com/)
+* [Window Manager - dwm](https://dwm.suckless.org/)
+* [Shell - Zsh](https://www.zsh.org/)
+* [Terminal Emulator - st](https://st.suckless.org/)
+* [File Manager - lf](https://github.com/ptzz/lf.vim)
+* [Text Editor - Vim](https://www.vim.org/)
 
 ### Added Programs
 * [Docker](docker.com)
-* [Docker-Compose](docker.com)
-* [Node js](docker.com)
-* [Npm](docker.com)
+* [Docker-Compose](https://docs.docker.com/compose/)
+* [Node js](https://nodejs.org/en/)
+* [Npm](https://www.npmjs.com/)
 
-### Clients
-* [REST http - Httpie]()
-* [MONGO & PG - vim-dadbod]()
+### Vim Clients 
+* [REST http - vim-rest-console](https://github.com/diepm/vim-rest-console)
+* [MONGO & PG - vim-dadbod](https://github.com/tpope/vim-dadbod)
+Note: To keep the project lightweight, I have not included GUI programs for rest and server clients, however I only use vim-rest-console and vim-dadbod for small or repeatedly used queries, for gui queries, I use the following;
+* [REST http - Insomnia](https://insomnia.rest/)
+* [MONGODB - Robo3T](https://robomongo.org/)
+* [POSTGRES - Beekeeper Studio](https://www.beekeeperstudio.io/)
+
 
 ### Added Vim Plugins
-* [TabNine](adf.com)
-* [COC-Emmet](emmet.com)
-* [COC-Prettier](adf.com)
-* [COC-Snippets](ctrlp.com)
+* [TabNine](https://www.tabnine.com/)
+* [COC-Emmet](https://github.com/neoclide/coc-emmet)
+* [COC-Prettier](https://github.com/neoclide/coc-prettier)
+* [COC-Snippets](https://github.com/neoclide/coc-snippets)
 
 <!-- GETTING STARTED -->
 ## Getting Started
