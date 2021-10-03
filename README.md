@@ -91,8 +91,6 @@ I have added some programs for web development, and some Vim plugins as well as 
 <br>
 <b>Note:</b> To keep the project lightweight, I have not included GUI programs for rest and server clients, however I only use vim-rest-console and vim-dadbod for small or repeatedly used queries, for gui queries, I use the following;
 <br>
-
-### Recommended GUI Clients (Not installed by default) 
 * [REST http - Insomnia](https://insomnia.rest/)
 * [MONGODB - Robo3T](https://robomongo.org/)
 * [POSTGRES - Beekeeper Studio](https://www.beekeeperstudio.io/)
