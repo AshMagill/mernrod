@@ -90,10 +90,10 @@ I have added some programs for web development, and some Vim plugins as well as 
 * [MONGO & PG - vim-dadbod](https://github.com/tpope/vim-dadbod)
 
 <br>
-<b>Note:</b> To keep the project lightweight, I have not included GUI programs for rest and server clients, however I only use vim-rest-console and vim-dadbod for small or repeatedly used queries, for gui queries, I use the following:
+<b>Note:</b> To keep the project lightweight, I have not included GUI programs for rest and server clients, however I usually only use vim-rest-console and vim-dadbod for small or repeatedly used queries, for gui queries, I use the following clients:
 <br>
 
-### Vim GUI Clients 
+### GUI Clients 
 * [REST http - Insomnia](https://insomnia.rest/)
 * [MONGODB - Robo3T](https://robomongo.org/)
 * [POSTGRES - Beekeeper Studio](https://www.beekeeperstudio.io/)
