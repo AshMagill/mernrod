@@ -86,7 +86,13 @@ I have added some programs for web development, and some Vim plugins as well as 
 * [Node js](https://nodejs.org/en/)
 * [Npm](https://www.npmjs.com/)
 
-### Vim Clients 
+### Added Vim Plugins
+* [TabNine](https://www.tabnine.com/)
+* [COC-Emmet](https://github.com/neoclide/coc-emmet)
+* [COC-Prettier](https://github.com/neoclide/coc-prettier)
+* [COC-Snippets](https://github.com/neoclide/coc-snippets)
+
+### Vim REST/DB Clients 
 * [REST http - vim-rest-console](https://github.com/diepm/vim-rest-console)
 * [MONGO & PG - vim-dadbod](https://github.com/tpope/vim-dadbod)
 
@@ -94,17 +100,10 @@ I have added some programs for web development, and some Vim plugins as well as 
 <b>Note:</b> To keep the project lightweight, I have not included GUI programs for rest and server clients, however I usually only use vim for small or repeatedly used queries. For larger projects and complex queries, I use the following gui clients:
 <br>
 
-### GUI Clients 
+### GUI REST/DB Clients 
 * [REST http - Insomnia](https://insomnia.rest/)
 * [MONGODB - Robo3T](https://robomongo.org/)
 * [POSTGRES - Beekeeper Studio](https://www.beekeeperstudio.io/)
-
-
-### Added Vim Plugins
-* [TabNine](https://www.tabnine.com/)
-* [COC-Emmet](https://github.com/neoclide/coc-emmet)
-* [COC-Prettier](https://github.com/neoclide/coc-prettier)
-* [COC-Snippets](https://github.com/neoclide/coc-snippets)
 
 <!-- GETTING STARTED -->
 ## Getting Started
