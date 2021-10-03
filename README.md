@@ -188,7 +188,6 @@ Project Link: [https://github.com/AshMagill/larbs-react](https://github.com/AshM
 [stars-shield]: https://img.shields.io/github/stars/AshMagill/larbs-react.svg?style=for-the-badge
 [stars-url]: https://github.com/AshMagill/larbs-react/stargazers
 [issues-shield]: https://img.shields.io/github/issues/AshMagill/larbs-react.svg?style=for-the-badge
-[issues-url]: https://github.com/AshMagill/larbs-react/issues
-[license-shield]: https://img.shields.io/github/license/AshMagill/larbs-react.svg?style=for-the-badge
 [license-url]: https://github.com/AshMagill/larbs-react/blob/main/LICENSE 
+[license-shield]: https://img.shields.io/github/license/AshMagill/larbs-react.svg?style=for-the-badge
 
