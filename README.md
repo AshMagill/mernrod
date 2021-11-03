@@ -131,7 +131,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone git@github.com:AshMagill/larbs-react.git
+   git clone https://github.com/AshMagill/larbs-react.git
    ```
 2. CD into folder, and run the script 
    ```sh
