@@ -213,13 +213,16 @@ dialog --title "LARBS Installation" --infobox "Enable Docker daemon.." 5 70
  sudo systemctl enable docker.service &
  sudo systemctl enable containerd.service 
 
-#create docker group and add user to it 
+#Create docker group and add user to it 
 dialog --title "LARBS Installation" --infobox "Create a Docker group and add user to it" 5 70
 sudo groupadd docker &>/dev/null &
 sudo usermod -aG docker $name &>/dev/null 
 
 dialog --title "LARBS Installation" --infobox "Finally, installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
 yes | sudo -u "$name" $aurhelper -S libxft-bgra-git >/dev/null 2>&1
+
+#Update dwm changes
+sudo make -C ~/.local/src/dwm install &>/dev/null 
 
 # Install the dotfiles in the user's home directory
 putgitrepo "$dotfilesrepo" "/home/$name" "$repobranch"
