@@ -208,10 +208,15 @@ installationloop
 dialog --title "LARBS Installation" --infobox "Installing react-devtools with npm..." 5 70
 npm install -g react-devtools &>/dev/null
 
-#Installing some NPM packages
+#Enable docker
 dialog --title "LARBS Installation" --infobox "Enable Docker daemon.." 5 70
- sudo systemctl enable docker.service &>/dev/null
- sudo systemctl enable containerd.service &>/dev/null
+ sudo systemctl enable docker.service &
+ sudo systemctl enable containerd.service 
+
+#create docker group and add user to it 
+sudo groupadd docker &
+sudo usermod -aG docker $USER &
+newgrp docker
 
 dialog --title "LARBS Installation" --infobox "Finally, installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
 yes | sudo -u "$name" $aurhelper -S libxft-bgra-git >/dev/null 2>&1
