@@ -206,7 +206,7 @@ installationloop
 
 #Installing some NPM packages
 dialog --title "LARBS Installation" --infobox "Installing npm packages..." 5 70
-npm install -g react-devtools --silent
+npm install -g react-devtools &>/dev/null
 
 dialog --title "LARBS Installation" --infobox "Finally, installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
 yes | sudo -u "$name" $aurhelper -S libxft-bgra-git >/dev/null 2>&1
