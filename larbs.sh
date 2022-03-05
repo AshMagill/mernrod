@@ -204,6 +204,10 @@ manualinstall $aurhelper || error "Failed to install AUR helper."
 # and all build dependencies are installed.
 installationloop
 
+#Installing some NPM packages
+dialog --title "LARBS Installation" --infobox "Installing npm packages..." 5 70
+npm install -g react-dev-tools
+
 dialog --title "LARBS Installation" --infobox "Finally, installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
 yes | sudo -u "$name" $aurhelper -S libxft-bgra-git >/dev/null 2>&1
 
