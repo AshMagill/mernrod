@@ -214,8 +214,8 @@ dialog --title "LARBS Installation" --infobox "Enable Docker daemon.." 5 70
  sudo systemctl enable containerd.service 
 
 #create docker group and add user to it 
-sudo groupadd docker &
-sudo usermod -aG docker $USER &
+sudo groupadd docker &>/dev/null &
+sudo usermod -aG docker $name &
 newgrp docker
 
 dialog --title "LARBS Installation" --infobox "Finally, installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
