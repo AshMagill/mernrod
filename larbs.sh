@@ -215,8 +215,8 @@ dialog --title "LARBS Installation" --infobox "Enable Docker daemon.." 5 70
 
 #create docker group and add user to it 
 sudo groupadd docker &>/dev/null &
-sudo usermod -aG docker $name &
-newgrp docker
+sudo usermod -aG docker $name &>/dev/null &
+newgrp docker &>/dev/null
 
 dialog --title "LARBS Installation" --infobox "Finally, installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
 yes | sudo -u "$name" $aurhelper -S libxft-bgra-git >/dev/null 2>&1
