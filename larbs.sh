@@ -222,8 +222,9 @@ dialog --title "LARBS Installation" --infobox "Finally, installing \`libxft-bgra
 yes | sudo -u "$name" $aurhelper -S libxft-bgra-git >/dev/null 2>&1
 
 #Update dwm changes
-vim ~/.local/src/dwm/config.h +wq &
-sudo make -C ~/.local/src/dwm install &>/dev/null 
+vim -C ~/.local/src/dwm/config.h +wq &
+sudo make -C ~/.local/src/dwm install  
+#&>/dev/null
 
 # Install the dotfiles in the user's home directory
 putgitrepo "$dotfilesrepo" "/home/$name" "$repobranch"
