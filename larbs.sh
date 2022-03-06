@@ -239,7 +239,7 @@ git update-index --assume-unchanged "/home/$name/README.md" "/home/$name/LICENSE
 
 #Install vim plugins
 dialog --title "LARBS Installation" --infobox "Installing Vim plugins..." 5 70
-vim +'PlugInstall --sync' +qall &>/dev/null
+vim --headless +PlugInstall +qall &>/dev/null
 
 # Most important command! Get rid of the beep!
 systembeepoff
