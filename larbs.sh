@@ -237,7 +237,7 @@ https://www.archlinux.org/feeds/news/" > "/home/$name/.config/newsboat/urls"
 git update-index --assume-unchanged "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
 
 #Install vim plugins
-nvim --headless +PlugInstall +qall &>/dev/null
+vim  +PlugInstall 
 
 # Most important command! Get rid of the beep!
 systembeepoff
