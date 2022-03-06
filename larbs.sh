@@ -209,14 +209,18 @@ dialog --title "LARBS Installation" --infobox "Installing react-devtools with np
 npm install -g react-devtools &>/dev/null
 
 #Enable docker
-dialog --title "LARBS Installation" --infobox "Enable Docker daemon.." 5 70
+dialog --title "LARBS Installation" --infobox "Enable Docker daemon..." 5 70
  sudo systemctl enable docker.service &
  sudo systemctl enable containerd.service 
 
 #Create docker group and add user to it 
-dialog --title "LARBS Installation" --infobox "Create a Docker group and add user to it" 5 70
+dialog --title "LARBS Installation" --infobox "Create a Docker group and add user to it..." 5 70
 sudo groupadd docker &>/dev/null &
 sudo usermod -aG docker $name &>/dev/null 
+
+#Install vim plugins
+dialog --title "LARBS Installation" --infobox "Installing Vim plugins..." 5 70
+vim +'PlugInstall --sync' +qall &>/dev/null
 
 dialog --title "LARBS Installation" --infobox "Finally, installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
 yes | sudo -u "$name" $aurhelper -S libxft-bgra-git >/dev/null 2>&1
