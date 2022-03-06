@@ -236,9 +236,6 @@ https://www.archlinux.org/feeds/news/" > "/home/$name/.config/newsboat/urls"
 # make git ignore deleted LICENSE & README.md files
 git update-index --assume-unchanged "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
 
-#Install vim plugins
-yes y | vim --headless --silent +PlugInstall +qall &>/dev/null
-
 # Most important command! Get rid of the beep!
 systembeepoff
 
