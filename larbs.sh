@@ -218,15 +218,15 @@ dialog --title "LARBS Installation" --infobox "Create a Docker group and add use
 sudo groupadd docker &>/dev/null &
 sudo usermod -aG docker $name &>/dev/null 
 
-dialog --title "LARBS Installation" --infobox "Finally, installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
+dialog --title "LARBS Installation" --infobox "Installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
 yes | sudo -u "$name" $aurhelper -S libxft-bgra-git >/dev/null 2>&1
 
 #Update dwm changes
 vim ~/.local/src/dwm/config.h +wq &
 sudo make -C ~/.local/src/dwm install  
-#&>/dev/null
 
 # Install the dotfiles in the user's home directory
+dialog --title "LARBS Installation" --infobox "Installing dotfiles..." 5 70
 putgitrepo "$dotfilesrepo" "/home/$name" "$repobranch"
 rm -f "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
 # Create default urls file if none exists.
@@ -239,7 +239,7 @@ git update-index --assume-unchanged "/home/$name/README.md" "/home/$name/LICENSE
 
 #Install vim plugins
 dialog --title "LARBS Installation" --infobox "Installing Vim plugins..." 5 70
-vim --headless +PlugInstall +qall &>/dev/null
+nvim --headless +pluginstall +qall &>/dev/null
 
 # Most important command! Get rid of the beep!
 systembeepoff
