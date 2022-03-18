@@ -223,10 +223,6 @@ sudo usermod -aG docker $name &>/dev/null
 dialog --title "LARBS Installation" --infobox "Installing \`libxft-bgra\` to enable color emoji in suckless software without crashes..." 5 70
 yes | sudo -u "$name" $aurhelper -S libxft-bgra-git >/dev/null 2>&1
 
-#Update dwm changes
-#vim ~/.local/src/dwm/config.h +wq &
-#sudo make -C ~/.local/src/dwm install  
-
 # Install the dotfiles in the user's home directory
 putgitrepo "$dotfilesrepo" "/home/$name" "$repobranch"
 rm -f "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
@@ -236,7 +232,8 @@ https://notrelated.libsyn.com/rss
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA \"~Luke Smith (YouTube)\"
 https://www.archlinux.org/feeds/news/" > "/home/$name/.config/newsboat/urls"
 
-#vim --headless +'PlugInstall --sync' +qa! &>/dev/null
+vim --headless +'PlugInstall --sync' +qa! &>/dev/null
+vim --headless +'CocInstall coc-tabnine' +qa! &>/dev/null
 
 # make git ignore deleted LICENSE & README.md files
 git update-index --assume-unchanged "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
