@@ -232,10 +232,6 @@ https://notrelated.libsyn.com/rss
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA \"~Luke Smith (YouTube)\"
 https://www.archlinux.org/feeds/news/" > "/home/$name/.config/newsboat/urls"
 
-# run vim in the background to install everything (qietly)
-nvim --headless +silent! +PlugInstall +qa &
-nvim +silent! +CocInstall +qa &>/dev/null
-
 # make git ignore deleted LICENSE & README.md files
 git update-index --assume-unchanged "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
 
