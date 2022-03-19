@@ -207,8 +207,8 @@ dialog --title "LARBS Installation" --infobox "Installing react-devtools with np
 npm install -g react-devtools &>/dev/null
 
 #Installing some NPM packages
-dialog --title "LARBS Installation" --infobox "Installing coc.nvim with npm..." 5 70
-npm install -g coc.nvim &>/dev/null
+#dialog --title "LARBS Installation" --infobox "Installing coc.nvim with npm..." 5 70
+#npm install -g coc.nvim &>/dev/null
 
 #Enable docker
 dialog --title "LARBS Installation" --infobox "Enable Docker daemon..." 5 70
