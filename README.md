@@ -71,9 +71,9 @@ This project is a fork of the original <a href="https://github.com/LukeSmithxyz/
 
 Its not as lightweight as the original script (this one takes up like 11GB once everything is downloaded), so be warned!!
 
+<details>
 I have added all the necessary tools required for MERN and PERN stack web development. It has both GUI (graphical user interface) and terminal based applications for pretty much everything. Also made everything gruvbox 😀 
 
-<details>
 ### Original core programs
 * [DWM - tiled window manager](https://dwm.suckless.org/)
 * [ZSH - shell](https://www.zsh.org/)
