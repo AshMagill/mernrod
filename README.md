@@ -71,9 +71,9 @@
 
 This project is a fork of the original <a href="https://github.com/LukeSmithxyz/LARBS">LARBS</a> script.
 
-I have added all the necessary tools required for MERN and PERN web development. It has both gui AND terminal based applications for pretty much everything. Also made everything gruvbox 😀 
+I have added all the necessary tools required for MERN and PERN web development. It has both GUI (graphical user interface) and terminal based applications for pretty much everything. Also made everything gruvbox 😀 
 
-### Original Core Programs
+### Original core programs
 * [DWM - tiled window manager](https://dwm.suckless.org/)
 * [ZSH - shell](https://www.zsh.org/)
 * [ST - terminal emulator](https://st.suckless.org/)
@@ -81,20 +81,20 @@ I have added all the necessary tools required for MERN and PERN web development.
 * [Vim - terminal text editor](https://github.com/www.vim.org/)
 
 ### Browsers
-* [Vieb - vim based gui](https://www.youtube.com)
-* [Brave - Chrome based gui](https://www.youtube.com)
+* [Vieb - Vim based GUI](https://www.youtube.com)
+* [Brave - Chrome based GUI](https://www.youtube.com)
 * [Lynx - terminal](https://www.youtube.com)
 
-### Clients
-* [Mingo -mongodb gui](https://www.youtube.com)
-* [BeeKeeper -Postgres gui](https://www.youtube.com)
-* [Insomnia - http REST gui](https://www.youtube.com)
-* [VRC- http REST Vim plugin](https://www.youtube.com)
-* [Dadbod - Postgres and MongoDB Vim plugin](https://www.youtube.com)
+### Clients for API and Database queries 
+* [Mingo - Mongodb GUI](https://www.youtube.com)
+* [BeeKeeper -Postgres GUI](https://www.youtube.com)
+* [Insomnia - http REST & CRUD GUI](https://www.youtube.com)
+* [VRC- http REST & CRUD (Vim plugin)](https://www.youtube.com)
+* [Dadbod - Postgres and MongoDB (Vim plugin)](https://www.youtube.com)
 
-### Web Development
+### Web development tools
 * [Docker](docker.com)
-* [Docker-Compose](<span style="color:blue">some *https://docs.docker.com/compose/* text</span>.)
+* [Docker-Compose](https://docs.docker.com/compose)
 * [Node js](https://nodejs.org/en/)
 * [Npm](https://www.npmjs.com/)
 
