@@ -74,14 +74,23 @@ This project is a fork of the original <a href="https://github.com/LukeSmithxyz/
 I have added all the necessary tools required for MERN and PERN web development. It has both gui AND terminal based applications for pretty much everything. Also made everything gruvbox 😀 
 
 ### Original Core Programs
-* [Window Manager - dwm](https://dwm.suckless.org/)
-* [Shell - Zsh](https://www.zsh.org/)
-* [Terminal Emulator - st](https://st.suckless.org/)
-* [File Manager - lf](https://github.com/ptzz/lf.vim)
-* [Text Editor - Vim](https://www.vim.org/)
+* [dwm - tiled window manager](https://dwm.suckless.org/)
+* [Zsh - shell](https://www.zsh.org/)
+* [st - terminal emulator](https://st.suckless.org/)
+* [lf - terminal based file manager](https://github.com/ptzz/lf.vim)
+* [Vim - terminal based text editor](https://github.com/www.vim.org/)
 
 ### Browsers
-* [vieb - vim based gui](https://www.youtube.com)
+* [Vieb - vim based gui](https://www.youtube.com)
+* [Brave - gui](https://www.youtube.com)
+* [Lynx - terminal](https://www.youtube.com)
+
+### Clients
+* [Mingo - terminal](https://www.youtube.com)
+* [BeeKeeper - terminal](https://www.youtube.com)
+* [Insomnia - terminal](https://www.youtube.com)
+* [Dadbod - vim](https://www.youtube.com)
+* [vrc- vim terminal for http REST](https://www.youtube.com)
 
 ### Web Development
 * [Docker](docker.com)
