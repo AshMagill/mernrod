@@ -74,11 +74,13 @@ Its not as lightweight as the original script (this one takes up like 11GB once 
 I have added all the necessary tools required for MERN and PERN stack web development. It has both GUI (graphical user interface) and terminal based applications for pretty much everything. Also made everything gruvbox 😀 
 
 ### Original core programs
+<details>
 * [DWM - tiled window manager](https://dwm.suckless.org/)
 * [ZSH - shell](https://www.zsh.org/)
 * [ST - terminal emulator](https://st.suckless.org/)
 * [LF - terminal file manager](https://github.com/ptzz/lf.vim)
 * [Vim - terminal text editor](https://github.com/www.vim.org/)
+</details>
 
 ### Browsers
 * [Vieb - Vim based GUI](https://www.youtube.com)
