@@ -17,7 +17,7 @@
   <h3 align="center">Larbs React Bootstrap Script</h3> 
 
   <p align="center">
-  A Script for Creating the perfect, lightweight Arch install for React Web Developers, its designed to be installed on a fresh, minimal Arch system (for those new to Arch I recommend using Archlabs as a base install). 
+  A Script for installing a fast and effective working environment for the MERN and PERN stack, its designed to be installed on a fresh, minimal Arch system (for those new to Arch I recommend using Archlabs as a base install). 
     <br />
     <!--<br />-->
     <br />
@@ -71,16 +71,19 @@
 
 This project is a fork of the original <a href="https://github.com/LukeSmithxyz/LARBS">LARBS</a> script.
 
-I have added some programs for web development, and some Vim plugins as well as some snippet libaries.
+I have added some tools for web development, and some Vim plugins as well as some snippet libaries. Also made everything gruvbox 😀 
 
-### Built With
+### Original Core Programs
 * [Window Manager - dwm](https://dwm.suckless.org/)
 * [Shell - Zsh](https://www.zsh.org/)
 * [Terminal Emulator - st](https://st.suckless.org/)
 * [File Manager - lf](https://github.com/ptzz/lf.vim)
 * [Text Editor - Vim](https://www.vim.org/)
 
-### Added Programs
+### Browsers
+* [vieb - vim based gui] (https://www.youtube.com)
+
+### Web Development
 * [Docker](docker.com)
 * [Docker-Compose](https://docs.docker.com/compose/)
 * [Node js](https://nodejs.org/en/)
