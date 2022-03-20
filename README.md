@@ -69,8 +69,7 @@
 
 This project is a fork of the original <a href="https://github.com/LukeSmithxyz/LARBS">LARBS</a> script.
 
-Its not as lightweight as the original script (this one takes up 11GB once everything is downloaded), so be warned, its about to get bloated!
-
+Its not as lightweight as the original script (this one takes up 11GB once everything is downloaded).
 <details>
 <Summary>Development Tools</Summary>
 
