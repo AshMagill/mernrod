@@ -17,7 +17,7 @@
   <h3 align="center">Larbs React Bootstrap Script</h3> 
 
   <p align="center">
-  A Script for installing a fast and effective working environment for the MERN and PERN stack, its designed to be installed on a fresh, minimal Arch system (for those new to Arch I recommend using Archlabs as a base install). 
+  A Script for installing a fast and effective development environment for the MERN and PERN stack, its designed to be installed on a fresh, minimal Arch system (for those new to Arch I recommend using Archlabs as a base install). 
     <br />
     <!--<br />-->
     <br />
@@ -69,7 +69,7 @@
 
 This project is a fork of the original <a href="https://github.com/LukeSmithxyz/LARBS">LARBS</a> script.
 
-Its not as lightweight as the original script (this one takes up like 11GB once everything is downloaded), so be warned!!
+Its not as lightweight as the original script (this one takes up 11GB once everything is downloaded), so be warned, its about to get bloated!
 
 <details>
 <Summary>Development Tools</Summary>
@@ -99,7 +99,7 @@ I have added all the necessary tools required for MERN and PERN stack web develo
 * [Docker](docker.com)
 * [Docker Compose](https://docs.docker.com/compose)
 * [Node js](https://nodejs.org/en/)
-* [Npm](https://www.npmjs.com/)
+* [NPM](https://www.npmjs.com/)
 
 ### Wireframing and database modeling
 * [Staruml - Database modeling GUI](docker.com)
