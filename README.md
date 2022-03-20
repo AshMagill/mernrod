@@ -119,7 +119,8 @@ I have added all the necessary tools required for MERN and PERN stack web develo
 * [Blender - 3D graphics](https://www.npmjs.com/)
 
 ### Other Vim plugins
-* [TabNine - AI completion](https://www.tabnine.com/)
+* [COC - Intellisense (like VSCode)](https://github.com/neoclide/coc-emmet)
+* [COC TabNine - AI completion](https://www.tabnine.com/)
 * [COC Emmet - Expanding abbreviations](https://github.com/neoclide/coc-emmet)
 * [COC Prettier - Code formatter](https://github.com/neoclide/coc-prettier)
 * [COC Snippets -Code snippets](https://github.com/neoclide/coc-snippets)
