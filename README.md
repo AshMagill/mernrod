@@ -71,7 +71,7 @@
 
 This project is a fork of the original <a href="https://github.com/LukeSmithxyz/LARBS">LARBS</a> script.
 
-I have added some tools for web development, and some Vim plugins as well as some snippet libaries. Also made everything gruvbox 😀 
+I have added all the necessary tools required for MERN and PERN web development. It has both gui AND terminal based applications for pretty much everything. Also made everything gruvbox 😀 
 
 ### Original Core Programs
 * [Window Manager - dwm](https://dwm.suckless.org/)
@@ -81,7 +81,7 @@ I have added some tools for web development, and some Vim plugins as well as som
 * [Text Editor - Vim](https://www.vim.org/)
 
 ### Browsers
-* [vieb - vim based gui] (https://www.youtube.com)
+* [vieb - vim based gui](https://www.youtube.com)
 
 ### Web Development
 * [Docker](docker.com)
