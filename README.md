@@ -107,21 +107,26 @@ I have added all the necessary tools required for MERN and PERN stack web develo
 * [Salt - Wireframing Vim plugin](https://nodejs.org/en/)
 * [Wireframesketcher - Wireframing GUI](https://www.npmjs.com/)
 
+### Debugging
+* [React Devtools - GUI](https://www.youtube.com)
+* [Vimspector - Vim plugin (not yet configured)](https://www.youtube.com)
+
 ### Design tools
 * [Scribus - Page layout](docker.com)
 * [Inkscape - Vector graphics](https://docs.docker.com/compose)
 * [Gimp - Raster graphics](https://nodejs.org/en/)
 * [Blender - 3D graphics](https://www.npmjs.com/)
 
-### Debugging
-* [React Devtools - GUI](https://www.youtube.com)
-* [Vimspector - Vim plugin (not yet configured)](https://www.youtube.com)
-
 ### Other Vim plugins
-* [TabNine](https://www.tabnine.com/)
-* [COC-Emmet](https://github.com/neoclide/coc-emmet)
-* [COC-Prettier](https://github.com/neoclide/coc-prettier)
-* [COC-Snippets](https://github.com/neoclide/coc-snippets)
+* [TabNine - AI completion](https://www.tabnine.com/)
+* [COC Emmet - Expanding abbreviations](https://github.com/neoclide/coc-emmet)
+* [COC Prettier - Code formatter](https://github.com/neoclide/coc-prettier)
+* [COC Snippets -Code snippets](https://github.com/neoclide/coc-snippets)
+* [COC Eslint - Code linting](https://github.com/neoclide/)
+* [Easymotion - Fast travel](https://www.tabnine.com/)
+* [CTRLP - Fuzzy finder](https://github.com/neoclide/coc-emmet)
+* [Gitgutter - Show git diffs in columns](https://github.com/neoclide/coc-prettier)
+* [Zoom - Zoom in current pane](https://github.com/neoclide/coc-snippets)
 
 ### Other smaller changes
 * [XII Changes - Xrandr for multiple monitors](https://github.com/neoclide/coc-emmet)
