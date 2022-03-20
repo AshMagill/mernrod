@@ -33,7 +33,7 @@
 
 <!-- TABLE OF CONTENTS -->
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-<details open="open">
+<details open="closed">
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -46,13 +46,13 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites">Installation</a></li>
       </ul>
     </li>
     <li>
       <a href="#demo-video">Usage</a>
       <ul>
-       <li><a href="#added-programs-video">Demo Video</a></li>
+       <li><a href="#demo-video">Demo Video</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
