@@ -32,7 +32,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <h2 style="display: inline-block">Table of Contents</h2>
 <details>
   <ol>
     <li>
