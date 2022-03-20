@@ -71,7 +71,9 @@
 
 This project is a fork of the original <a href="https://github.com/LukeSmithxyz/LARBS">LARBS</a> script.
 
-I have added all the necessary tools required for MERN and PERN web development. It has both GUI (graphical user interface) and terminal based applications for pretty much everything. Also made everything gruvbox 😀 
+Its not as lightweight as the original script (this one takes up like 11GB once everything is downloaded), so be warned!!
+
+I have added all the necessary tools required for MERN and PERN stack web development. It has both GUI (graphical user interface) and terminal based applications for pretty much everything. Also made everything gruvbox 😀 
 
 ### Original core programs
 * [DWM - tiled window manager](https://dwm.suckless.org/)
@@ -86,36 +88,44 @@ I have added all the necessary tools required for MERN and PERN web development.
 * [Lynx - terminal](https://www.youtube.com)
 
 ### Clients for API and Database queries 
-* [Mingo - Mongodb GUI](https://www.youtube.com)
-* [BeeKeeper -Postgres GUI](https://www.youtube.com)
+* [Mingo - MongoDB GUI](https://www.youtube.com)
+* [BeeKeeper - Postgres GUI](https://www.youtube.com)
 * [Insomnia - http REST & CRUD GUI](https://www.youtube.com)
-* [VRC- http REST & CRUD (Vim plugin)](https://www.youtube.com)
-* [Dadbod - Postgres and MongoDB (Vim plugin)](https://www.youtube.com)
+* [VRC - http REST & CRUD Vim plugin](https://www.youtube.com)
+* [Dadbod - Postgres and MongoDB Vim plugin](https://www.youtube.com)
 
-### Web development tools
+### Node and Docker
 * [Docker](docker.com)
-* [Docker-Compose](https://docs.docker.com/compose)
+* [Docker Compose](https://docs.docker.com/compose)
 * [Node js](https://nodejs.org/en/)
 * [Npm](https://www.npmjs.com/)
 
-### Added Vim Plugins
+### Wireframing and database modeling
+* [Staruml - Database modeling GUI](docker.com)
+* [Plantuml - Database modeling Vim plugin](https://docs.docker.com/compose)
+* [Salt - Wireframing Vim plugin](https://nodejs.org/en/)
+* [Wireframesketcher - Wireframing GUI](https://www.npmjs.com/)
+
+### Design tools
+* [Scribus - Page layout](docker.com)
+* [Inkscape - Vector graphics](https://docs.docker.com/compose)
+* [Gimp - Raster graphics](https://nodejs.org/en/)
+* [Blender - 3D graphics](https://www.npmjs.com/)
+
+### Debugging
+* [React Devtools - GUI](https://www.youtube.com)
+* [Vimspector - Vim plugin (not yet configured)](https://www.youtube.com)
+
+### Other Vim plugins
 * [TabNine](https://www.tabnine.com/)
 * [COC-Emmet](https://github.com/neoclide/coc-emmet)
 * [COC-Prettier](https://github.com/neoclide/coc-prettier)
 * [COC-Snippets](https://github.com/neoclide/coc-snippets)
 
-### Vim REST/DB Clients 
-* [REST http - vim-rest-console](https://github.com/diepm/vim-rest-console)
-* [MONGO & PG - vim-dadbod](https://github.com/tpope/vim-dadbod)
-
-<br>
-<b>Note:</b> To keep the project lightweight, I have not included GUI programs for rest and server clients, however I usually only use vim for small or repeatedly used queries. For larger projects and complex queries, I use the following gui clients:
-<br>
-
-### GUI REST/DB Clients 
-* [REST http - Insomnia](https://insomnia.rest/)
-* [MONGODB - Robo3T](https://robomongo.org/)
-* [POSTGRES - Beekeeper Studio](https://www.beekeeperstudio.io/)
+### Other smaller changes
+* [XII Changes](https://github.com/neoclide/coc-emmet)
+* [DWM Changes](https://github.com/neoclide/coc-prettier)
+* [Key Mapping Changes](https://github.com/neoclide/coc-snippets)
 
 <!-- GETTING STARTED -->
 ## Getting Started
