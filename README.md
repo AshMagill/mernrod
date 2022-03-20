@@ -38,10 +38,8 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
-        <li><a href="#added-programs">Programs</a></li>
-        <li><a href="#added-vim-plugins">Vim Plugins</a></li>
-        <li><a href="#added-clients">Clients</a></li>
+        <li><a href="#about-the-project">Built With</a></li>
+        <li><a href="#about-the-project">Development Tools</a></li>
       </ul>
     </li>
     <li>
@@ -52,7 +50,7 @@
       </ul>
     </li>
     <li>
-      <a href="#usage">Usage</a>
+      <a href="#demo-video">Usage</a>
       <ul>
        <li><a href="#added-programs-video">Demo Video</a></li>
       </ul>
@@ -123,9 +121,9 @@ I have added all the necessary tools required for MERN and PERN stack web develo
 * [COC-Snippets](https://github.com/neoclide/coc-snippets)
 
 ### Other smaller changes
-* [XII Changes](https://github.com/neoclide/coc-emmet)
-* [DWM Changes](https://github.com/neoclide/coc-prettier)
-* [Key Mapping Changes](https://github.com/neoclide/coc-snippets)
+* [XII Changes - Xrandr for multiple monitors](https://github.com/neoclide/coc-emmet)
+* [DWM Changes - Changed Colors](https://github.com/neoclide/coc-prettier)
+* [Key Mapping - Changed ESC to Caps (for SQL queries)](https://github.com/neoclide/coc-snippets)
 
 <!-- GETTING STARTED -->
 ## Getting Started
