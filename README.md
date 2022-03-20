@@ -32,8 +32,8 @@
 
 
 <!-- TABLE OF CONTENTS -->
-  <h2 style="display: inline-block">Table of Contents</h2>
 <details>
+  <Summary<h2 style="display: inline-block">Table of Contents</h2></Summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -72,6 +72,7 @@ This project is a fork of the original <a href="https://github.com/LukeSmithxyz/
 Its not as lightweight as the original script (this one takes up like 11GB once everything is downloaded), so be warned!!
 
 <details>
+<Summary>Development Tools</Summary>
 
 I have added all the necessary tools required for MERN and PERN stack web development. It has both GUI (graphical user interface) and terminal based applications for pretty much everything. Also made everything gruvbox 😀 
 
