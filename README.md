@@ -127,7 +127,7 @@ I have added all the necessary tools required for MERN and PERN stack web develo
 * [COC Eslint - Code linting](https://github.com/neoclide/)
 * [Easymotion - Fast travel](https://www.tabnine.com/)
 * [CTRLP - Fuzzy finder](https://github.com/neoclide/coc-emmet)
-* [Gitgutter - Show git diffs in columns](https://github.com/neoclide/coc-prettier)
+* [Gitgutter - Show git diffs in column](https://github.com/neoclide/coc-prettier)
 * [Zoom - Zoom in current pane](https://github.com/neoclide/coc-snippets)
 
 ### Other smaller changes
