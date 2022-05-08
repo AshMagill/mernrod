@@ -232,7 +232,7 @@ curl https://raw.githubusercontent.com/AshMagill/vscode-settings/main/settings.j
 
 #Install Vim settings and Coc settings
 dialog --title "MERNROD Installation" --infobox "Installing Vim settings..." 5 70
-nvim --headless +PlugInstall +qall & 
+nvim --headless +qall & 
 
 #Install Vim settings and Coc settings
 dialog --title "MERNROD Installation" --infobox "Installing COC settings..." 5 70
