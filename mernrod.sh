@@ -224,11 +224,11 @@ sudo usermod -aG docker $name &>/dev/null
 
 #Install vscode extensions
 dialog --title "MERNROD Installation" --infobox "Installing VSCode extensions..." 5 70
-sudo -u "$name" code --install-extension esbenp.prettier-vscode --enable-proposed-api esbenp.prettier-vscode &/dev/null
+code --install-extension esbenp.prettier-vscode --enable-proposed-api esbenp.prettier-vscode &
 
 #Install vscode settings
 dialog --title "MERNROD Installation" --infobox "Installing VSCode settings..." 5 70
-putgitrepo "https://github.com/ashmagill/vscode/settings/main/settings.json" "/home/$name/.config/Code/User" &
+sudo -u "$name" putgitrepo "https://github.com/ashmagill/vscode/settings/main/settings.json" "/home/$name/.config/Code/User" &
 
 #install emojis
 dialog --title "MERNROD Installation" --infobox "Finally, installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
