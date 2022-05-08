@@ -227,7 +227,7 @@ dialog --title "MERNROD Installation" --infobox "Installing VSCode extensions...
 code --install-extension ./vscode-installer/CachedExtensionVSIXs/esbenp.prettier-vscode.vsix --enable-proposed-api ./vscode-installer/CachedExtensionVSIXs/esbenp.prettier-vscode --install-extension ./vscode-installer/CachedExtensionVSIXs/tabnine.tabnine-vscode.vsix --enable-proposed-api ./vscode-installer/CachedExtensionVSIXs/tabnine.tabnine-vscode.vsix --install-extension ./vscode-installer/CachedExtensionVSIXs/sainnhe.gruvbox-material.vsix --enable-proposed-api ./vscode-installer/CachedExtensionVSIXs/sainnhe.gruvbox-material.vsix --install-extension ./vscode-installer/CachedExtensionVSIXs/ms-vscode.references-view.vsix --enable-proposed-api ./vscode-installer/CachedExtensionVSIXs/ms-vscode.references-view.vsix --install-extension ./vscode-installer/CachedExtensionVSIXs/msjsdiag.debugger-for-chrome.vsix --enable-proposed-api ./vscode-installer/CachedExtensionVSIXs/msjsdiag.debugger-for-chrome.vsix --install-extension ./vscode-installer/CachedExtensionVSIXs/dsznajder.es7-react-js-snippets.vsix --enable-proposed-api ./vscode-installer/CachedExtensionVSIXs/dsznajder.es7-react-js-snippets.vsix & 
 
 dialog --title "MERNROD Installation" --infobox "Installing VSCode settings..." 5 70
-sudo cp -f ./vscode-installer/settings.json ~/.config/Code/User &
+cp -f ./vscode-installer/settings.json ~/.config/Code/User &
 
 dialog --title "MERNROD Installation" --infobox "Finally, installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
 yes | sudo -u "$name" $aurhelper -S libxft-bgra-git >/dev/null 2>&1
