@@ -116,7 +116,7 @@ I have added all the necessary tools required for MERN and PERN stack web develo
 * [Gitgutter - Show git diffs in column](https://github.com/neoclide/coc-prettier)
 * [Zoom - Zoom in current pane](https://github.com/neoclide/coc-snippets)
 
-[Check out this link for the full list of programs](https://raw.githubusercontent.com/AshMagill/mernrod/main/progs.csv)
+[<p>(Check out this link for the full list of programs)</p>](https://raw.githubusercontent.com/AshMagill/mernrod/main/progs.csv)
 
 </details>
 
