@@ -1,0 +1,14 @@
+{
+  "workbench.colorTheme": "Gruvbox Material Dark",
+  "prettier.singleQuote": true,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.menuBarVisibility": "toggle",
+  "editor.suggest.showStatusBar": true,
+  "workbench.statusBar.visible": false,
+  "workbench.startupEditor": "none",
+  "window.zoomLevel": 1,
+  "tabnine.experimentalAutoImports": true
+}
