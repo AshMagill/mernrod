@@ -230,6 +230,14 @@ sudo -u "$name" code --install-extension esbenp.prettier-vscode --enable-propose
 dialog --title "MERNROD Installation" --infobox "Installing VSCode settings..." 5 70
 curl https://raw.githubusercontent.com/AshMagill/vscode-settings/main/settings.json --output /home/$name/.config/Code/User/settings.json &>/dev/null 
 
+#Install Vim settings and Coc settings
+dialog --title "MERNROD Installation" --infobox "Installing Vim settings..." 5 70
+nvim --headless +PlugInstall +qall &>/dev/null
+
+#Install Vim settings and Coc settings
+dialog --title "MERNROD Installation" --infobox "Installing COC settings..." 5 70
+nvim --headless +CocInstall +qall &>/dev/null
+
 #install emojis
 dialog --title "MERNROD Installation" --infobox "Finally, installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
 yes | sudo -u "$name" $aurhelper -S libxft-bgra-git >/dev/null 2>&1
