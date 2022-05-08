@@ -232,11 +232,11 @@ curl https://raw.githubusercontent.com/AshMagill/vscode-settings/main/settings.j
 
 #Install Vim settings and Coc settings
 dialog --title "MERNROD Installation" --infobox "Installing Vim settings..." 5 70
-nvim --headless +PlugInstall +qall &>/dev/null
+nvim --headless +PlugInstall +qall & 
 
 #Install Vim settings and Coc settings
 dialog --title "MERNROD Installation" --infobox "Installing COC settings..." 5 70
-nvim --headless +CocInstall +qall &>/dev/null
+nvim --headless +CocInstall +qall &
 
 #install emojis
 dialog --title "MERNROD Installation" --infobox "Finally, installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
