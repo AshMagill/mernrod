@@ -228,7 +228,7 @@ dialog --title "MERNROD Installation" --infobox "Installing VSCode extensions...
 #Install vscode settings
 dialog --title "MERNROD Installation" --infobox "Installing VSCode settings..." 5 70
 #cp -f https://github.com/ashmagill/vscode-settings/main/settings.json /home/$name/.config/Code/User &
-curl https://raw.githubusercontent.com/AshMagill/vscode-settings/main/settings.json --output /home/$name/.config/Code/User & 
+curl https://raw.githubusercontent.com/AshMagill/vscode-settings/main/settings.json --output /home/$name/.config/Code/User/settings.json & 
 
 #curl -o https://raw.githubusercontent.com/AshMagill/vscode-settings/main/settings.json /home/$name/.config/Code/User &
 
