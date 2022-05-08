@@ -222,14 +222,15 @@ dialog --title "MERNROD Installation" --infobox "Create a Docker group and add u
 sudo groupadd docker &>/dev/null &
 sudo usermod -aG docker $name &>/dev/null 
 
-#Install vscode settings and extensions
+#Install vscode extensions
 dialog --title "MERNROD Installation" --infobox "Installing VSCode extensions..." 5 70
-sudo -u "$name" code --install-extension esbenp.prettier-vscode --enable-proposed-api esbenp.prettier-vscode &
-#--install-extension ~/mernrod/vscode-installer/CachedExtensionVSIXs/tabnine.tabnine-vscode.vsix --enable-proposed-api main/mernrod/vscode-installer/CachedExtensionVSIXs/tabnine.tabnine-vscode.vsix --install-extension main/mernrod/vscode-installer/CachedExtensionVSIXs/sainnhe.gruvbox-material.vsix --enable-proposed-api main/mernrod/vscode-installer/CachedExtensionVSIXs/sainnhe.gruvbox-material.vsix --install-extension main/mernrod/vscode-installer/CachedExtensionVSIXs/ms-vscode.references-view.vsix --enable-proposed-api main/mernrod/vscode-installer/CachedExtensionVSIXs/ms-vscode.references-view.vsix --install-extension main/mernrod/vscode-installer/CachedExtensionVSIXs/msjsdiag.debugger-for-chrome.vsix --enable-proposed-api main/mernrod/vscode-installer/CachedExtensionVSIXs/msjsdiag.debugger-for-chrome.vsix --install-extension main/mernrod/vscode-installer/CachedExtensionVSIXs/dsznajder.es7-react-js-snippets.vsix --enable-proposed-api main/mernrod/vscode-installer/CachedExtensionVSIXs/dsznajder.es7-react-js-snippets.vsix  
+sudo -u "$name" code --install-extension esbenp.prettier-vscode --enable-proposed-api esbenp.prettier-vscode &/dev/null
 
+#Install vscode settings
 dialog --title "MERNROD Installation" --infobox "Installing VSCode settings..." 5 70
-putgitrepo "https://github.com/ashmagill/vscodesettings/main/settings.json" "/home/$name/.config/Code/User" &
+putgitrepo "https://github.com/ashmagill/vscode/settings/main/settings.json" "/home/$name/.config/Code/User" &
 
+#install emojis
 dialog --title "MERNROD Installation" --infobox "Finally, installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
 yes | sudo -u "$name" $aurhelper -S libxft-bgra-git >/dev/null 2>&1
 
