@@ -224,7 +224,7 @@ sudo usermod -aG docker $name &>/dev/null
 
 #Install vscode extensions
 dialog --title "MERNROD Installation" --infobox "Installing VSCode extensions..." 5 70
-sudo -u "$name" code --install-extension esbenp.prettier-vscode --enable-proposed-api esbenp.prettier-vscode &
+sudo -u "$name" code --install-extension esbenp.prettier-vscode --enable-proposed-api esbenp.prettier-vscode --install-extension tabnine.tabnine-vscode --enable-proposed-api tabnine.tabnine-vscode --install-extension sainnhe.gruvbox-material --enable-proposed-api sainnhe.gruvbox-material --install-extension ms-vscode.references-view --enable-proposed-api ms-vscode.references-view --install-extension msjsdiag.debugger-for-chrome --enable-proposed-api msjsdiag.debugger-for-chrome --install-extension dsznajder.es7-react-js-snippets --enable-proposed-api dsznajder.es7-react-js-snippets &>/dev/null 
 
 #Install vscode settings
 #dialog --title "MERNROD Installation" --infobox "Installing VSCode settings..." 5 70
