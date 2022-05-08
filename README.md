@@ -95,7 +95,7 @@ I have added all the necessary tools required for MERN and PERN stack web develo
 * [HTTPIE - A CLI http client] (https://www.httpie.com)
 
 ### Other Development Tools
-* [VSCode - Comes pre-configured, ready for action] (https://www.vscode.com)
+* [VSCode - Comes pre-configured, ready for action](https://www.vscode.com)
 * [Docker](docker.com)
 * [Docker Compose](https://docs.docker.com/compose)
 * [Node js](https://nodejs.org/en/)
@@ -116,7 +116,7 @@ I have added all the necessary tools required for MERN and PERN stack web develo
 * [Gitgutter - Show git diffs in column](https://github.com/neoclide/coc-prettier)
 * [Zoom - Zoom in current pane](https://github.com/neoclide/coc-snippets)
 
-[Check out this link for the full list of programs used](https://github.com/ashmagill/mernrod/main/progs.csv)
+[Check out this link for the full list of programs](https://raw.githubusercontent.com/AshMagill/mernrod/main/progs.csv)
 
 </details>
 
