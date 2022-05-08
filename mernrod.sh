@@ -248,13 +248,13 @@ https://www.archlinux.org/feeds/news/" > "/home/$name/.config/newsboat/urls"
 # make git ignore deleted LICENSE & README.md files
 git update-index --assume-unchanged "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
 
-#Install Vim settings and Coc settings
+#Install Vim settings 
 dialog --title "MERNROD Installation" --infobox "Installing Vim settings..." 5 70
-sudo -u "$name" nvim --headless +PlugInstall +qall & 
+sudo -u "$name" nvim --headless +PlugInstall +qall >/dev/null 2>&1 
 
-#Install Vim settings and Coc settings
-#dialog --title "MERNROD Installation" --infobox "Installing COC settings..." 5 70
-#nvim --headless +CocInstall +qall &
+#Install Coc settings
+dialog --title "MERNROD Installation" --infobox "Installing COC settings..." 5 70
+sudo -u "$name" nvim --headless +CocInstall +qall >/dev/null 2>&1 
 
 # Most important command! Get rid of the beep!
 systembeepoff
