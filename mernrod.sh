@@ -227,8 +227,8 @@ dialog --title "MERNROD Installation" --infobox "Installing VSCode extensions...
 code --install-extension esbenp.prettier-vscode --enable-proposed-api esbenp.prettier-vscode &
 
 #Install vscode settings
-dialog --title "MERNROD Installation" --infobox "Installing VSCode settings..." 5 70
-sudo -u "$name" putgitrepo "https://github.com/ashmagill/vscode/settings/main/settings.json" "/home/$name/.config/Code/User" &
+#dialog --title "MERNROD Installation" --infobox "Installing VSCode settings..." 5 70
+#sudo -u "$name" putgitrepo "https://github.com/ashmagill/vscode/settings/main/settings.json" "/home/$name/.config/Code/User" &
 
 #install emojis
 dialog --title "MERNROD Installation" --infobox "Finally, installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
