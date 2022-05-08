@@ -224,7 +224,7 @@ sudo usermod -aG docker $name &>/dev/null
 
 #Install vscode extensions
 dialog --title "MERNROD Installation" --infobox "Installing VSCode extensions..." 5 70
-code --install-extension esbenp.prettier-vscode --enable-proposed-api esbenp.prettier-vscode &
+sudo -u "$name" code --install-extension esbenp.prettier-vscode --enable-proposed-api esbenp.prettier-vscode &
 
 #Install vscode settings
 #dialog --title "MERNROD Installation" --infobox "Installing VSCode settings..." 5 70
