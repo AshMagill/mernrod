@@ -14,7 +14,7 @@
 <br />
 <p align="center">
 
-  <h3 align="center">Larbs React Bootstrap Script</h3> 
+  <h3 align="center">MERN.Rapid.Optimization.Downloader</h3> 
 
   <p align="center">
   A Script for installing a fast and effective development environment for the MERN and PERN stack, its designed to be installed on a fresh, minimal Arch system (for those new to Arch I recommend using Archlabs as a base install). 
@@ -67,15 +67,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project is a fork of the original <a href="https://github.com/LukeSmithxyz/LARBS">LARBS</a> script.
+This project is based on the original <a href="https://github.com/LukeSmithxyz/LARBS">LARBS</a> script by Luke Smith.
 
-Its not as lightweight as the original script (this one takes up 11GB once everything is downloaded).
 <details open="open">
 <Summary>Development Tools</Summary>
 <br>
 
-
-I have added all the necessary tools required for MERN and PERN stack web development. It has both GUI (graphical user interface) and terminal based applications for pretty much everything. Also made everything gruvbox 😀 
+I have added all the necessary tools required for MERN and PERN stack web development. It has both GUI and terminal based applications for pretty much everything MERN. Also made everything gruvbox 😀 
 
 ### Original core programs
 * [DWM - tiled window manager](https://dwm.suckless.org/)
@@ -85,38 +83,26 @@ I have added all the necessary tools required for MERN and PERN stack web develo
 * [Vim - terminal text editor](https://github.com/www.vim.org/)
 
 ### Browsers
-* [Vieb - Vim based GUI](https://www.youtube.com)
 * [Brave - Chrome based GUI](https://www.youtube.com)
-* [Lynx - terminal](https://www.youtube.com)
 
 ### Clients for API and Database queries 
-* [Mingo - MongoDB GUI](https://www.youtube.com)
+* [Robo3T - MongoDB GUI](https://www.youtube.com)
 * [BeeKeeper - Postgres GUI](https://www.youtube.com)
 * [Insomnia - http REST & CRUD GUI](https://www.youtube.com)
 * [VRC - http REST & CRUD Vim plugin](https://www.youtube.com)
 * [Dadbod - Postgres and MongoDB Vim plugin](https://www.youtube.com)
+* [MongoSH - CLI for interacting with MongoDB](https://www.mongosh.com)
+* [HTTPIE - A CLI http client] (https://www.httpie.com)
 
-### Node and Docker
+### Other Development Tools
+* [VSCode - Comes pre-configured, ready for action] (https://www.vscode.com)
 * [Docker](docker.com)
 * [Docker Compose](https://docs.docker.com/compose)
 * [Node js](https://nodejs.org/en/)
 * [NPM](https://www.npmjs.com/)
 
-### Wireframing and database modeling
-* [Staruml - Database modeling GUI](docker.com)
-* [Plantuml - Database modeling Vim plugin](https://docs.docker.com/compose)
-* [Salt - Wireframing Vim plugin](https://nodejs.org/en/)
-* [Wireframesketcher - Wireframing GUI](https://www.npmjs.com/)
-
 ### Debugging
-* [React Devtools - GUI](https://www.youtube.com)
 * [Vimspector - Vim plugin (not yet configured)](https://www.youtube.com)
-
-### Design tools
-* [Scribus - Page layout](docker.com)
-* [Inkscape - Vector graphics](https://docs.docker.com/compose)
-* [Gimp - Raster graphics](https://nodejs.org/en/)
-* [Blender - 3D graphics](https://www.npmjs.com/)
 
 ### Other Vim plugins
 * [COC - Intellisense (like VSCode)](https://github.com/neoclide/coc-emmet)
@@ -130,10 +116,8 @@ I have added all the necessary tools required for MERN and PERN stack web develo
 * [Gitgutter - Show git diffs in column](https://github.com/neoclide/coc-prettier)
 * [Zoom - Zoom in current pane](https://github.com/neoclide/coc-snippets)
 
-### Other smaller changes
-* [XII Changes - Xrandr for multiple monitors](https://github.com/neoclide/coc-emmet)
-* [DWM Changes - Changed Colors](https://github.com/neoclide/coc-prettier)
-* [Key Mapping - Changed ESC to Caps (for SQL queries)](https://github.com/neoclide/coc-snippets)
+[Check out this link for the full list of programs used](https://github.com/ashmagill/mernrod/main/progs.csv)
+
 </details>
 
 <!-- GETTING STARTED -->
