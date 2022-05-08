@@ -250,11 +250,11 @@ git update-index --assume-unchanged "/home/$name/README.md" "/home/$name/LICENSE
 
 #Install Vim settings and Coc settings
 dialog --title "MERNROD Installation" --infobox "Installing Vim settings..." 5 70
-nvim --headless +qall & 
+nvim --headless +PlugInstall +qall & 
 
 #Install Vim settings and Coc settings
-dialog --title "MERNROD Installation" --infobox "Installing COC settings..." 5 70
-nvim --headless +CocInstall +qall &
+#dialog --title "MERNROD Installation" --infobox "Installing COC settings..." 5 70
+#nvim --headless +CocInstall +qall &
 
 # Most important command! Get rid of the beep!
 systembeepoff
