@@ -92,7 +92,7 @@ I have added all the necessary tools required for MERN and PERN stack web develo
 * [VRC - http REST & CRUD Vim plugin](https://www.youtube.com)
 * [Dadbod - Postgres and MongoDB Vim plugin](https://www.youtube.com)
 * [MongoSH - CLI for interacting with MongoDB](https://www.mongosh.com)
-* [HTTPIE - A CLI http client] (https://www.httpie.com)
+* [HTTPIE - A CLI http client](https://www.httpie.com)
 
 ### Other Development Tools
 * [VSCode - Comes pre-configured, ready for action](https://www.vscode.com)
