@@ -95,26 +95,24 @@ I have added all the necessary tools required for MERN and PERN stack web develo
 * [HTTPIE - A CLI http client](https://www.httpie.com)
 
 ### Other Development Tools
-* [VSCode - Comes pre-configured, ready for action](https://www.vscode.com)
+* [VSCode - Comes pre-configured for full-stack MERN](https://www.vscode.com)
 * [Docker](docker.com)
 * [Docker Compose](https://docs.docker.com/compose)
 * [Node js](https://nodejs.org/en/)
 * [NPM](https://www.npmjs.com/)
 
-### Debugging
-* [Vimspector - Vim plugin (not yet configured)](https://www.youtube.com)
-
 ### Other Vim plugins
-* [COC - Intellisense (like VSCode)](https://github.com/neoclide/coc-emmet)
+* [COC Intellisense - (Like VSCode Intellisense)](https://github.com/neoclide/coc-emmet)
 * [COC TabNine - AI completion](https://www.tabnine.com/)
 * [COC Emmet - Expanding abbreviations](https://github.com/neoclide/coc-emmet)
 * [COC Prettier - Code formatter](https://github.com/neoclide/coc-prettier)
-* [COC Snippets -Code snippets](https://github.com/neoclide/coc-snippets)
+* [COC Snippets - Code snippets](https://github.com/neoclide/coc-snippets)
 * [COC Eslint - Code linting](https://github.com/neoclide/)
 * [Easymotion - Fast travel](https://www.tabnine.com/)
 * [CTRLP - Fuzzy finder](https://github.com/neoclide/coc-emmet)
 * [Gitgutter - Show git diffs in column](https://github.com/neoclide/coc-prettier)
 * [Zoom - Zoom in current pane](https://github.com/neoclide/coc-snippets)
+* [Vimspector - Debugging (not yet configured)](https://www.youtube.com)
 
 [<p>(Check out this link for the full list of programs)</p>](https://raw.githubusercontent.com/AshMagill/mernrod/main/progs.csv)
 
