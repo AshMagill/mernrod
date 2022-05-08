@@ -154,7 +154,7 @@ systembeepoff() { dialog --infobox "Getting rid of that annoying error beep soun
 
 finalize(){ \
 	dialog --infobox "Preparing welcome message..." 4 50
-	dialog --title "All done!" --msgbox "Congrats! Provided there were no hidden errors, the script completed successfully and all the programs and configuration files should be in place.\\n\\nTo run the new graphical environment, log out and log back in as your new user, then run the command \"startx\" to start the graphical environment (it will start automatically in tty1).\\n\\n.t Ash" 12 80
+	dialog --title "All done!" --msgbox "Congrats! Provided there were no hidden errors, the script completed successfully and all the programs and configuration files should be in place.\\n\\nTo run the new graphical environment, log out and log back in as your new user, then run the command \"startx\" to start the graphical environment (it will start automatically in tty1).\\n\\n Ash" 12 80
 	}
 
 ### THE ACTUAL SCRIPT ###
@@ -224,7 +224,7 @@ sudo usermod -aG docker $name &>/dev/null
 
 #Install vscode settings and extensions
 dialog --title "MERNROD Installation" --infobox "Installing VSCode extensions..." 5 70
-sudo -u "$name" code --install-extension ~/mernrod/vscode-installer/CachedExtensionVSIXs/esbenp.prettier-vscode.vsix --enable-proposed-api ~/mernrod/vscode-installer/CachedExtensionVSIXs/esbenp.prettier-vscode &
+sudo -u "$name" code --install-extension ./vscode-installer/CachedExtensionVSIXs/esbenp.prettier-vscode.vsix --enable-proposed-api ./vscode-installer/CachedExtensionVSIXs/esbenp.prettier-vscode &
 
 #--install-extension ~/mernrod/vscode-installer/CachedExtensionVSIXs/tabnine.tabnine-vscode.vsix --enable-proposed-api main/mernrod/vscode-installer/CachedExtensionVSIXs/tabnine.tabnine-vscode.vsix --install-extension main/mernrod/vscode-installer/CachedExtensionVSIXs/sainnhe.gruvbox-material.vsix --enable-proposed-api main/mernrod/vscode-installer/CachedExtensionVSIXs/sainnhe.gruvbox-material.vsix --install-extension main/mernrod/vscode-installer/CachedExtensionVSIXs/ms-vscode.references-view.vsix --enable-proposed-api main/mernrod/vscode-installer/CachedExtensionVSIXs/ms-vscode.references-view.vsix --install-extension main/mernrod/vscode-installer/CachedExtensionVSIXs/msjsdiag.debugger-for-chrome.vsix --enable-proposed-api main/mernrod/vscode-installer/CachedExtensionVSIXs/msjsdiag.debugger-for-chrome.vsix --install-extension main/mernrod/vscode-installer/CachedExtensionVSIXs/dsznajder.es7-react-js-snippets.vsix --enable-proposed-api main/mernrod/vscode-installer/CachedExtensionVSIXs/dsznajder.es7-react-js-snippets.vsix  
 
