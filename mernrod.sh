@@ -215,7 +215,7 @@ installationloop
 #Enable docker
 dialog --title "MERNROD Installation" --infobox "Enable Docker daemon..." 5 70
  sudo systemctl enable docker.service &
- sudo systemctl enable containerd.service 
+ sudo systemctl enable containerd.service &>/dev/null
 
 #Create docker group and add user to it 
 dialog --title "MERNROD Installation" --infobox "Create a Docker group and add user to it..." 5 70
@@ -224,7 +224,7 @@ sudo usermod -aG docker $name &>/dev/null
 
 #Install vscode settings and extensions
 dialog --title "MERNROD Installation" --infobox "Installing VSCode settings and extensions..." 5 70
-sh ./vscode-installer/CachedExtensionVSIXs/vs.sh >/dev/null 2>&1
+sh ./vscode-installer/CachedExtensionVSIXs/vs.sh &>/dev/null
 
 dialog --title "MERNROD Installation" --infobox "Finally, installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
 yes | sudo -u "$name" $aurhelper -S libxft-bgra-git >/dev/null 2>&1
