@@ -230,14 +230,6 @@ sudo -u "$name" code --install-extension esbenp.prettier-vscode --enable-propose
 dialog --title "MERNROD Installation" --infobox "Installing VSCode settings..." 5 70
 curl https://raw.githubusercontent.com/AshMagill/vscode-settings/main/settings.json --output /home/$name/.config/Code/User/settings.json &>/dev/null 
 
-#Install Vim settings and Coc settings
-dialog --title "MERNROD Installation" --infobox "Installing Vim settings..." 5 70
-nvim --headless +qall & 
-
-#Install Vim settings and Coc settings
-dialog --title "MERNROD Installation" --infobox "Installing COC settings..." 5 70
-nvim --headless +CocInstall +qall &
-
 #install emojis
 dialog --title "MERNROD Installation" --infobox "Finally, installing \`libxft-bgra\` to enable color emoji in suckless software without crashes." 5 70
 yes | sudo -u "$name" $aurhelper -S libxft-bgra-git >/dev/null 2>&1
@@ -255,6 +247,18 @@ https://artixlinux.org/feed.php "tech"
 https://www.archlinux.org/feeds/news/" > "/home/$name/.config/newsboat/urls"
 # make git ignore deleted LICENSE & README.md files
 git update-index --assume-unchanged "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
+
+#Install Vim settings 
+dialog --title "MERNROD Installation" --infobox "Installing Vim settings..." 5 70
+sudo -u "$name" nvim --headless +PlugInstall +qall >/dev/null 2>&1 
+
+#Install Coc settings
+dialog --title "MERNROD Installation" --infobox "Installing COC settings..." 5 70
+sudo -u "$name" nvim --headless +CocInstall +qall >/dev/null 2>&1 
+
+#reconfigure vim-dadbod mongo settings
+dialog --title "MERNROD Installation" --infobox "Reconfiguring Vim DadBod settings..." 5 70
+curl https://raw.githubusercontent.com/AshMagill/mernrod-dadbod/main/dadbod-mern.vim --output /home/$name/.vim/plugged/vim-dadbod/autoload/db/adapter/mongodb.vim &>/dev/null 
 
 # Most important command! Get rid of the beep!
 systembeepoff
