@@ -154,7 +154,7 @@ To get a local copy up and running follow these simple steps.
 <!-- USAGE -->
 ## Usage
 
-Reboot and login, check the manual to get a hondle on navigation and programs (windows + f1)
+Reboot and login, check the manual to get a handle on navigation and programs (windows + f1)
 
 <!-- CONTRIBUTING -->
 ## Contributing
