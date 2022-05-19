@@ -86,11 +86,11 @@ I have added all the necessary tools required for MERN and PERN stack web develo
 * [Brave - Chrome based GUI](https://www.youtube.com)
 
 ### Clients for API and Database queries 
-* [Robo3T - MongoDB GUI](https://www.youtube.com)
-* [BeeKeeper - Postgres GUI](https://www.youtube.com)
-* [Insomnia - http REST & CRUD GUI](https://www.youtube.com)
-* [VRC - http REST & CRUD Vim plugin](https://www.youtube.com)
-* [Dadbod - Postgres and MongoDB Vim plugin](https://www.youtube.com)
+* [Robo3T - MongoDB GUI](https://robomongo.org/)
+* [BeeKeeper - Postgres GUI](https://www.beekeeperstudio.io/)
+* [Insomnia - http REST & CRUD GUI](https://insomnia.rest/)
+* [VRC - http REST & CRUD Vim plugin](https://github.com/diepm/vim-rest-console)
+* [Dadbod - Postgres and MongoDB Vim plugin](https://github.com/tpope/vim-dadbod)
 * [MongoSH - CLI for interacting with MongoDB](https://www.mongosh.com)
 * [HTTPIE - A CLI http client](https://www.httpie.com)
 
@@ -107,12 +107,12 @@ I have added all the necessary tools required for MERN and PERN stack web develo
 * [COC Emmet - Expanding abbreviations](https://github.com/neoclide/coc-emmet)
 * [COC Prettier - Code formatter](https://github.com/neoclide/coc-prettier)
 * [COC Snippets - Code snippets](https://github.com/neoclide/coc-snippets)
-* [COC Eslint - Code linting](https://github.com/neoclide/)
-* [Easymotion - Fast travel](https://www.tabnine.com/)
-* [CTRLP - Fuzzy finder](https://github.com/neoclide/coc-emmet)
-* [Gitgutter - Show git diffs in column](https://github.com/neoclide/coc-prettier)
-* [Zoom - Zoom in current pane](https://github.com/neoclide/coc-snippets)
-* [Vimspector - Debugging (not yet configured)](https://www.youtube.com)
+* [COC Eslint - Code linting](https://github.com/neoclide/coc-eslint)
+* [Easymotion - Fast travel](https://github.com/easymotion/vim-easymotion)
+* [CTRLP - Fuzzy finder](https://github.com/kien/ctrlp.vim)
+* [Gitgutter - Show git diffs in column](https://github.com/airblade/vim-gitgutter)
+* [Zoom - Zoom in current pane](https://github.com/dhruvasagar/vim-zoom)
+* [Vimspector - Debugging (not yet configured)](https://github.com/puremourning/vimspector)
 
 [<p>(Check out this link for the full list of programs)</p>](https://raw.githubusercontent.com/AshMagill/mernrod/main/progs.csv)
 
@@ -139,7 +139,7 @@ To get a local copy up and running follow these simple steps.
 
 1. CD into home directory 
    ```sh
-  cd
+   cd
    ```
 2. Clone the repo
    ```sh
