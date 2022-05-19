@@ -14,7 +14,7 @@
 <br />
 <p align="center">
 
-  <h3 align="center">MERN.Rapid.Optimization.Downloader</h3> 
+  <h3 align="center">MERN Rapid Optimization Downloader</h3> 
 
   <p align="center">
   A Script for installing a fast and effective development environment for the MERN and PERN stack, its designed to be installed on a fresh, minimal Arch system (for those new to Arch I recommend using Archlabs as a base install). 
