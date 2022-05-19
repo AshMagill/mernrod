@@ -145,16 +145,16 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/AshMagill/mernrod.git
    ```
-3. CD into folder, and run the script 
+3. CD into folder, and run the script (as root)
    ```sh
-   sh larbs.sh 
+   sudo sh larbs.sh 
    ```
 4. Follow the prompts and restart your computer when the install is complete.
 
 <!-- USAGE -->
 ## Usage
 
-Reboot and login, check the manual to get a handle on navigation and programs (windows + f1)
+Reboot and log in, check the manual to get a handle on navigation and programs (windows + f1)
 
 <!-- CONTRIBUTING -->
 ## Contributing
