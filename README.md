@@ -14,18 +14,18 @@
 <br />
 <p align="center">
 
-  <h3 align="center">MERN.Rapid.Optimization.Downloader</h3> 
+  <h3 align="center">MERN Rapid Optimization Downloader</h3> 
 
   <p align="center">
   A Script for installing a fast and effective development environment for the MERN and PERN stack, its designed to be installed on a fresh, minimal Arch system (for those new to Arch I recommend using Archlabs as a base install). 
     <br />
     <!--<br />-->
     <br />
-    <!--<a href="https://github.com/AshMagill/larbs-react">View Demo</a>-->
+    <!--<a href="https://github.com/AshMagill/mernrod">View Demo</a>-->
     <!--·-->
-    <a href="https://github.com/AshMagill/larbs-react/issues">Report Bug</a>
+    <a href="https://github.com/AshMagill/mernrod/issues">Report Bug</a>
     ·
-    <a href="https://github.com/AshMagill/larbs-react/issues">Request Feature</a>
+    <a href="https://github.com/AshMagill/mernrod/issues">Request Feature</a>
   </p>
 </p>
 
@@ -121,11 +121,6 @@ I have added all the necessary tools required for MERN and PERN stack web develo
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This link is to a full install tutorial including a minimal Archlabs install
-
-  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3PT76wsotks/0.jpg)](https://www.youtube.com/watch?v=3PT76wsotks)
-
-
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
@@ -142,24 +137,24 @@ To get a local copy up and running follow these simple steps.
 ### Installation
 
 
-1. Clone the repo
+1. CD into home directory 
    ```sh
-   git clone https://github.com/AshMagill/larbs-react.git
+  cd
    ```
-2. CD into folder, and run the script 
+2. Clone the repo
+   ```sh
+   git clone https://github.com/AshMagill/mernrod.git
+   ```
+3. CD into folder, and run the script 
    ```sh
    sh larbs.sh 
    ```
-3. Follow the prompts and restart your computer when the install    is complete.
+4. Follow the prompts and restart your computer when the install is complete.
 
 <!-- USAGE -->
 ## Usage
 
-### Demo Video 
-
-  This link is to a demo/tutorial including a guide to the snippets libary
-
-  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/vkEyX65Ssgo/0.jpg)](https://www.youtube.com/watch?v=vkEyX65Ssgo)
+Reboot and login, check the manual to get a hondle on navigation and programs (windows + f1)
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -182,25 +177,24 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Ash Magill - ashmagillnewzealand@gmail.com
 
-Project Link: [https://github.com/AshMagill/larbs-react](https://github.com/AshMagill/larbs-react)
+Project Link: [https://github.com/AshMagill/mernrod](https://github.com/AshMagill/mernrod)
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
 * [Luke Smith (LARBS) - Shell Script](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Archlabs Linux - OS](https://shields.io)
 * [Ben Awad - Vim Dotfiles](https://choosealicense.com)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/AshMagill/larbs-react.svg?style=for-the-badge
-[contributors-url]: https://github.com/AshMagill/larbs-react/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/AshMagill/larbs-react.svg?style=for-the-badge
-[forks-url]: https://github.com/AshMagill/larbs-react/network/members
-[stars-shield]: https://img.shields.io/github/stars/AshMagill/larbs-react.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/AshMagill/mernrod.svg?style=for-the-badge
+[contributors-url]: https://github.com/AshMagill/mernrod/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/AshMagill/mernrod.svg?style=for-the-badge
+[forks-url]: https://github.com/AshMagill/mernrod/network/members
+[stars-shield]: https://img.shields.io/github/stars/AshMagill/mernrod.svg?style=for-the-badge
 [issues-url]: https://github.com/AshMagill/pern-art-gallery/issues
-[stars-url]: https://github.com/AshMagill/larbs-react/stargazers
-[issues-shield]: https://img.shields.io/github/issues/AshMagill/larbs-react.svg?style=for-the-badge
-[license-shield]: https://img.shields.io/github/license/AshMagill/larbs-react.svg?style=for-the-badge
-[license-url]: https://github.com/AshMagill/larbs-react/blob/main/LICENSE 
+[stars-url]: https://github.com/AshMagill/mernrod/stargazers
+[issues-shield]: https://img.shields.io/github/issues/AshMagill/mernrod.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/AshMagill/mernrod.svg?style=for-the-badge
+[license-url]: https://github.com/AshMagill/mernrod/blob/main/LICENSE 
 
