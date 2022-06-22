@@ -257,8 +257,12 @@ dialog --title "MERNROD Installation" --infobox "Installing COC settings..." 5 7
 sudo -u "$name" nvim --headless +CocInstall +qall >/dev/null 2>&1 
 
 #reconfigure vim-dadbod mongo settings
-dialog --title "MERNROD Installation" --infobox "Reconfiguring Vim DadBod settings..." 5 70
+dialog --title "MERNROD Installation" --infobox "Reconfiguring Vim DadBod output for mongodb..." 5 70
 curl https://raw.githubusercontent.com/AshMagill/mernrod-dadbod/main/dadbod-mern.vim --output /home/$name/.vim/plugged/vim-dadbod/autoload/db/adapter/mongodb.vim &>/dev/null 
+
+#reconfigure vim-dadbod ui input settings
+dialog --title "MERNROD Installation" --infobox "Reconfiguring Vim DadBod UI for mongodb..." 5 70
+curl https://raw.githubusercontent.com/AshMagill/mern-dadbod-ui/main/db_ui.vim --output /home/$name/.vim/plugged/vim-dadbod-ui/autoload/db_ui.vim &>/dev/null
 
 # Most important command! Get rid of the beep!
 systembeepoff
