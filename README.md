@@ -15,7 +15,7 @@
 <p align="center">
 
   <h3 align="center">MERN Rapid Optimization Downloader</h3> 
-<a href="https://discord.gg/GNfmWj3dsd">Any questions that are not issues, please use this Discord chat!</a>
+<a align="center" href="https://discord.gg/GNfmWj3dsd">Any questions that are not issues, please use this Discord chat!</a>
 
   <p align="center">
   A Script for installing a fast and effective development environment for the MERN and PERN stack, its designed to be installed on a fresh, minimal Arch system (for those new to Arch I recommend using Archlabs as a base install). 
