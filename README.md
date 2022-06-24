@@ -182,8 +182,8 @@ Project Link: [https://github.com/AshMagill/mernrod](https://github.com/AshMagil
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
-* [Luke Smith (LARBS) - Shell Script](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Ben Awad - Vim Dotfiles](https://choosealicense.com)
+* [Luke Smith (LARBS) - Shell Script](https://github.com/LukeSmithxyz/LARBS)
+* [Ben Awad - Vim Dotfiles](https://www.youtube.com/watch?v=gnupOrSEikQ)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
