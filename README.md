@@ -192,7 +192,7 @@ Project Link: [https://github.com/AshMagill/mernrod](https://github.com/AshMagil
 [forks-shield]: https://img.shields.io/github/forks/AshMagill/mernrod.svg?style=for-the-badge
 [forks-url]: https://github.com/AshMagill/mernrod/network/members
 [stars-shield]: https://img.shields.io/github/stars/AshMagill/mernrod.svg?style=for-the-badge
-[issues-url]: https://github.com/AshMagill/pern-art-gallery/issues
+[issues-url]: https://github.com/AshMagill/mernrod/issues
 [stars-url]: https://github.com/AshMagill/mernrod/stargazers
 [issues-shield]: https://img.shields.io/github/issues/AshMagill/mernrod.svg?style=for-the-badge
 [license-shield]: https://img.shields.io/github/license/AshMagill/mernrod.svg?style=for-the-badge
