@@ -156,6 +156,8 @@ To get a local copy up and running follow these simple steps.
 
 Reboot and log in, check the manual to get a handle on navigation and programs (windows + f1)
 
+[![Watch the video](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://youtu.be/nTQUwghvy5Q)
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
