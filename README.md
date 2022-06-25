@@ -163,7 +163,6 @@ To get a local copy up and running follow these simple steps.
 
 Reboot and log in, check the manual to get a handle on navigation and programs (windows + f1) or (windows + f2) for a list of video guides.
 
-</br>
 <b>Click this YouTube link to get a quick demo of how everything works:</b>
 </br>
 
