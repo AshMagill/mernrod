@@ -151,6 +151,7 @@ To get a local copy up and running follow these simple steps.
 4. Follow the prompts and restart your computer when the install is complete.
 
   Here is a YouTube video with a detailed install guide, including a base Arch Linux Install:
+  </br>
 
 <a  href="http://www.youtube.com/watch?feature=player_embedded&v=0yfdurtNeCU" target="_blank">
  <img  src="http://img.youtube.com/vi/0yfdurtNeCU/mqdefault.jpg" alt="Watch the video" width="400" height="220" border="10" />
