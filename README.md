@@ -156,7 +156,7 @@ To get a local copy up and running follow these simple steps.
 
 Reboot and log in, check the manual to get a handle on navigation and programs (windows + f1)
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=B1y8VglyoBU" target="_blank">
+<a align="center" href="http://www.youtube.com/watch?feature=player_embedded&v=B1y8VglyoBU" target="_blank">
  <img src="http://img.youtube.com/vi/B1y8VglyoBU/mqdefault.jpg" alt="Watch the video" width="400" height="220" border="10" />
 </a>
 
