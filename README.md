@@ -156,10 +156,8 @@ To get a local copy up and running follow these simple steps.
 
 Reboot and log in, check the manual to get a handle on navigation and programs (windows + f1)
 
-[![Watch the video](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://youtu.be/nTQUwghvy5Q)
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=nTQUwghvy5Q" target="_blank">
- <img src="http://img.youtube.com/vi/nTQUwghvy5Q/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=B1y8VglyoBU" target="_blank">
+ <img src="http://img.youtube.com/vi/B1y8VglyoBU/mqdefault.jpg" alt="Watch the video" width="400" height="220" border="10" />
 </a>
 
 <!-- CONTRIBUTING -->
