@@ -136,6 +136,13 @@ To get a local copy up and running follow these simple steps.
 
 ### Installation
 
+  Here is a YouTube video with a detailed install guide, including a base Arch Linux Install:
+</br>
+<a  href="http://www.youtube.com/watch?feature=player_embedded&v=0yfdurtNeCU" target="_blank">
+ <img  src="http://img.youtube.com/vi/0yfdurtNeCU/mqdefault.jpg" alt="Watch the video" width="400" height="220" border="10" />
+</a>
+</br>
+
 
 1. CD into home directory 
    ```sh
@@ -154,13 +161,12 @@ To get a local copy up and running follow these simple steps.
 <!-- USAGE -->
 ## Usage
 
-Reboot and log in, check the manual to get a handle on navigation and programs (windows + f1)
+Reboot and log in, check the manual to get a handle on navigation and programs (windows + f1), or click this YouTube link to get a quick demo of how everything works:  
+</br>
 
-  <div align="center">
 <a  href="http://www.youtube.com/watch?feature=player_embedded&v=B1y8VglyoBU" target="_blank">
  <img  src="http://img.youtube.com/vi/B1y8VglyoBU/mqdefault.jpg" alt="Watch the video" width="400" height="220" border="10" />
 </a>
-</div>
 
 <!-- CONTRIBUTING -->
 ## Contributing
