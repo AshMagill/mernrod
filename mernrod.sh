@@ -269,7 +269,11 @@ dialog --title "MERNROD Installation" --infobox "Enable libvirt daemon..." 5 70
  sudo systemctl enable libvirtd &
  sudo systemctl start libvirtd &>/dev/null
 
-#Create docker group and add user to it 
+#download expo with npm 
+dialog --title "MERNROD Installation" --infobox "Enable libvirt daemon..." 5 70
+ sudo npm install -f expo-cli &>/dev/null
+
+#Create libvirt group and add user to it 
 dialog --title "MERNROD Installation" --infobox "Create a Docker group and add user to it..." 5 70
 sudo groupadd --system libvirt  &>/dev/null &
 sudo usermod -aG libvirt $name &>/dev/null & 
