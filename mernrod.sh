@@ -264,6 +264,18 @@ curl https://raw.githubusercontent.com/AshMagill/mernrod-dadbod/main/dadbod-mern
 dialog --title "MERNROD Installation" --infobox "Reconfiguring Vim DadBod UI for mongodb..." 5 70
 curl https://raw.githubusercontent.com/AshMagill/mern-dadbod-ui/main/db_ui.vim --output /home/$name/.vim/plugged/vim-dadbod-ui/autoload/db_ui.vim &>/dev/null
 
+#enable libvirt
+dialog --title "MERNROD Installation" --infobox "Enable libvirt daemon..." 5 70
+ sudo systemctl enable libvirtd &
+ sudo systemctl start libvirtd &>/dev/null
+
+#Create docker group and add user to it 
+dialog --title "MERNROD Installation" --infobox "Create a Docker group and add user to it..." 5 70
+sudo groupadd --system libvirt  &>/dev/null &
+sudo usermod -aG libvirt $name &>/dev/null & 
+newgroup libvirt &>/dev/null &
+sudo virsh net-autostart default &>/dev/null
+
 # Most important command! Get rid of the beep!
 systembeepoff
 
