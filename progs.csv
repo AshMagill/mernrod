@@ -76,3 +76,8 @@ A,beekeeper-studio-bin,"a modern and easy to use SQL client for MySQL, Postgres,
 A,robo3t-bin,"a shell-centric MongoDB managment tool."
 A,insomnia-bin,"a cross-platform HTTP and GraphQL Client."
 ,slock,"allows you to lock your computer, and quickly unlock with your password."
+A,qemu,"a virt display device."
+A,libvirt,"API for controlling virtualization engines."
+A,bridge-utils,"Utilities for configuring the linux ethernet virtual bridge."
+A,virt-manager,"A desktop interface for managing virtual machines."
+A,dnsmasq,"A DNS forwarder and DHCP server"
