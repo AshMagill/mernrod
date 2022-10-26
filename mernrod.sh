@@ -270,8 +270,8 @@ dialog --title "MERNROD Installation" --infobox "Enable libvirt daemon..." 5 70
  sudo systemctl start libvirtd &>/dev/null
 
 #download expo with npm 
-dialog --title "MERNROD Installation" --infobox "Enable libvirt daemon..." 5 70
- sudo npm install -f expo-cli &>/dev/null
+dialog --title "MERNROD Installation" --infobox " Install Expo for React Native virtualization..." 5 70
+ sudo npm install -g expo-cli &>/dev/null
 
 #Create libvirt group and add user to it 
 dialog --title "MERNROD Installation" --infobox "Create a Docker group and add user to it..." 5 70
