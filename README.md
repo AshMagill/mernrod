@@ -1,4 +1,3 @@
-
 <span align="center">
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -6,8 +5,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-
-
 
 </span>
 
@@ -29,14 +26,12 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <Summary><h2 style="display: inline-block">Table of Contents</h2></Summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">About This Project</a>
       <ul>
         <li><a href="#about-the-project">Built With</a></li>
         <li><a href="#about-the-project">Development Tools</a></li>
@@ -62,9 +57,8 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 This project is based on the original <a href="https://github.com/LukeSmithxyz/LARBS">LARBS</a> script by Luke Smith.
@@ -73,70 +67,76 @@ This project is based on the original <a href="https://github.com/LukeSmithxyz/L
 <Summary>Development Tools</Summary>
 <br>
 
-I have added all the necessary tools required for MERN and PERN stack web development. It has both GUI and terminal based applications for pretty much everything MERN. Also made everything gruvbox 😀 
+I have added all the necessary tools required for MERN and PERN stack web development. It has both GUI and terminal based applications for pretty much everything MERN. Also made everything gruvbox 😀
 
 ### Original core programs
-* [DWM - tiled window manager](https://dwm.suckless.org/)
-* [ZSH - shell](https://www.zsh.org/)
-* [ST - terminal emulator](https://st.suckless.org/)
-* [LF - terminal file manager](https://github.com/ptzz/lf.vim)
-* [Vim - terminal text editor](https://github.com/www.vim.org/)
+
+- [DWM - tiled window manager](https://dwm.suckless.org/)
+- [ZSH - shell](https://www.zsh.org/)
+- [ST - terminal emulator](https://st.suckless.org/)
+- [LF - terminal file manager](https://github.com/ptzz/lf.vim)
+- [Vim - terminal text editor](https://github.com/www.vim.org/)
 
 ### Browsers
-* [Brave - Chrome based GUI](https://www.youtube.com)
 
-### Clients for API and Database queries 
-* [Robo3T - MongoDB GUI](https://robomongo.org/)
-* [BeeKeeper - Postgres GUI](https://www.beekeeperstudio.io/)
-* [Insomnia - http REST & CRUD GUI](https://insomnia.rest/)
-* [VRC - http REST & CRUD Vim plugin](https://github.com/diepm/vim-rest-console)
-* [Dadbod - Postgres and MongoDB Vim plugin](https://github.com/tpope/vim-dadbod)
-* [MongoSH - CLI for interacting with MongoDB](https://www.mongosh.com)
-* [HTTPIE - A CLI http client](https://www.httpie.com)
+- [Brave - Chrome based GUI](https://www.youtube.com)
+
+### Clients for API and Database queries
+
+- [Robo3T - MongoDB GUI](https://robomongo.org/)
+- [BeeKeeper - Postgres GUI](https://www.beekeeperstudio.io/)
+- [Insomnia - http REST & CRUD GUI](https://insomnia.rest/)
+- [VRC - http REST & CRUD Vim plugin](https://github.com/diepm/vim-rest-console)
+- [Dadbod - Postgres and MongoDB Vim plugin](https://github.com/tpope/vim-dadbod)
+- [MongoSH - CLI for interacting with MongoDB](https://www.mongosh.com)
+- [HTTPIE - A CLI http client](https://www.httpie.com)
 
 ### Other Development Tools
-* [VSCode - Comes pre-configured for full-stack MERN](https://www.vscode.com)
-* [Docker](docker.com)
-* [Docker Compose](https://docs.docker.com/compose)
-* [Node js](https://nodejs.org/en/)
-* [NPM](https://www.npmjs.com/)
+
+- [VSCode - Comes pre-configured for full-stack MERN](https://www.vscode.com)
+- [Docker](docker.com)
+- [Docker Compose](https://docs.docker.com/compose)
+- [Node js](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
 
 ### Other Vim plugins
-* [COC Intellisense - (Like VSCode Intellisense)](https://github.com/neoclide/coc-emmet)
-* [COC TabNine - AI completion](https://www.tabnine.com/)
-* [COC Emmet - Expanding abbreviations](https://github.com/neoclide/coc-emmet)
-* [COC Prettier - Code formatter](https://github.com/neoclide/coc-prettier)
-* [COC Snippets - Code snippets](https://github.com/neoclide/coc-snippets)
-* [COC Eslint - Code linting](https://github.com/neoclide/coc-eslint)
-* [Easymotion - Fast travel](https://github.com/easymotion/vim-easymotion)
-* [CTRLP - Fuzzy finder](https://github.com/kien/ctrlp.vim)
-* [Gitgutter - Show git diffs in column](https://github.com/airblade/vim-gitgutter)
-* [Zoom - Zoom in current pane](https://github.com/dhruvasagar/vim-zoom)
-* [Vimspector - Debugging (not yet configured)](https://github.com/puremourning/vimspector)
+
+- [COC Intellisense - (Like VSCode Intellisense)](https://github.com/neoclide/coc-emmet)
+- [COC TabNine - AI completion](https://www.tabnine.com/)
+- [COC Emmet - Expanding abbreviations](https://github.com/neoclide/coc-emmet)
+- [COC Prettier - Code formatter](https://github.com/neoclide/coc-prettier)
+- [COC Snippets - Code snippets](https://github.com/neoclide/coc-snippets)
+- [COC Eslint - Code linting](https://github.com/neoclide/coc-eslint)
+- [Easymotion - Fast travel](https://github.com/easymotion/vim-easymotion)
+- [CTRLP - Fuzzy finder](https://github.com/kien/ctrlp.vim)
+- [Gitgutter - Show git diffs in column](https://github.com/airblade/vim-gitgutter)
+- [Zoom - Zoom in current pane](https://github.com/dhruvasagar/vim-zoom)
+- [Vimspector - Debugging (not yet configured)](https://github.com/puremourning/vimspector)
 
 [<p>(Check out this link for the full list of programs)</p>](https://raw.githubusercontent.com/AshMagill/mernrod/main/progs.csv)
 
 </details>
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-* A minimal Arch install
+- A minimal Arch install
   ```sh
   https://sourceforge.net/projects/arch
   ```
-* Git
+- Git
   ```sh
   sudo pacman -S git
   ```
 
 ### Installation
 
-1. CD into home directory 
+1. CD into home directory
    ```sh
    cd
    ```
@@ -146,12 +146,12 @@ To get a local copy up and running follow these simple steps.
    ```
 3. CD into folder, and run the script (as root)
    ```sh
-   sudo sh larbs.sh 
+   sudo sh larbs.sh
    ```
 4. Follow the prompts and restart your computer when the install is complete.
 
 <b> Here is a YouTube video with a detailed install guide, including a base Arch Linux Install:</b>
- </br>
+</br>
 
 <a  href="http://www.youtube.com/watch?feature=player_embedded&v=0yfdurtNeCU" target="_blank">
  <img  src="http://img.youtube.com/vi/0yfdurtNeCU/mqdefault.jpg" alt="Watch the video" width="400" height="auto" border="10" />
@@ -159,6 +159,7 @@ To get a local copy up and running follow these simple steps.
 </br>
 
 <!-- USAGE -->
+
 ## Usage
 
 Reboot and log in, check the manual to get a handle on navigation and programs (windows + f1) or (windows + f2) for a list of video guides.
@@ -171,6 +172,7 @@ Reboot and log in, check the manual to get a handle on navigation and programs (
 </a>
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -182,11 +184,13 @@ Contributions are what make the open source community such an amazing place to l
 5. Open a Pull Request
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
+
 ## Contact
 
 Ash Magill - ashmagillnewzealand@gmail.com
@@ -196,11 +200,13 @@ Project Link: [https://github.com/AshMagill/mernrod](https://github.com/AshMagil
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
-* [Luke Smith (LARBS) - Shell Script](https://github.com/LukeSmithxyz/LARBS)
-* [Ben Awad - Vim Dotfiles](https://www.youtube.com/watch?v=gnupOrSEikQ)
+
+- [Luke Smith (LARBS) - Shell Script](https://github.com/LukeSmithxyz/LARBS)
+- [Ben Awad - Vim Dotfiles](https://www.youtube.com/watch?v=gnupOrSEikQ)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/AshMagill/mernrod.svg?style=for-the-badge
 [contributors-url]: https://github.com/AshMagill/mernrod/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/AshMagill/mernrod.svg?style=for-the-badge
@@ -210,5 +216,4 @@ Project Link: [https://github.com/AshMagill/mernrod](https://github.com/AshMagil
 [stars-url]: https://github.com/AshMagill/mernrod/stargazers
 [issues-shield]: https://img.shields.io/github/issues/AshMagill/mernrod.svg?style=for-the-badge
 [license-shield]: https://img.shields.io/github/license/AshMagill/mernrod.svg?style=for-the-badge
-[license-url]: https://github.com/AshMagill/mernrod/blob/main/LICENSE 
-
+[license-url]: https://github.com/AshMagill/mernrod/blob/main/LICENSE
