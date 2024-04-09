@@ -68,8 +68,6 @@ G,https://github.com/ashmagill/mernrod-st.git,"is my custom build of suckless's 
 G,https://github.com/ashmagill/mernrod-dwm.git,"is the window manager."
 A,mutt-wizard-git,"is a light-weight terminal-based email system."
 A,beekeeper-studio-bin,"a modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more."
-A,robo3t-bin,"a shell-centric MongoDB managment tool."
-A,insomnia-bin,"a cross-platform HTTP and GraphQL Client."
 ,slock,"allows you to lock your computer, and quickly unlock with your password."
 A,qemu,"a virt display device."
 A,libvirt,"API for controlling virtualization engines."
