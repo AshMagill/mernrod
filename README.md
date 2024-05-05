@@ -14,6 +14,10 @@
   <h3 align="center">MERN Rapid Optimization Downloader</h3> 
 <p align="center" ><a href="https://discord.gg/GNfmWj3dsd">Any questions that are not issues, please use this Discord chat!</a></p>
   <p align="center">
+
+# Project Status
+This project is no longer being maintained. I have opted for another method of installing my workflow setup. However, the script should still work as long as Yay AUR manager is installed. Thank you for your understanding.
+    
   A Script for installing a fast and effective development environment for the MERN and PERN stack, its designed to be installed on a fresh, minimal Arch system (for those new to Arch I recommend using Archlabs or archinstall as a base install). 
     <br />
     <!--<br />-->
